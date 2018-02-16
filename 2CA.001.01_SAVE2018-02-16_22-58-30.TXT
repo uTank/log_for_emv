@@ -1,0 +1,2610 @@
+get key:08
+key value is 0x8
+Keyboard_GetKeyPress:1 
+EMV_Trans_Proc... 
+..\SRC\emv\App_TermTransLog.c, 597 .flash_read_block, Addr: 1067000, Len : 4, Ret : 0 .
+..\SRC\emv\App_EmvTrans.c ,122 . Trans Log Count : 0, Max Count ; 20. 
+..\SRC\emv\App_ApiMap.c, 249 .iccard_open, nRet : 0 .
+ EMV_SC_Open End. 
+..\SRC\emv\App_ApiMap.c, 428 .magcard_open, Ret : 0 .
+ EMV_MS_Open End. 
+LCD_Display,uiLine:3 LCD_Display =«Î≤Âø®/À¢ø®<<<. 
+..\SRC\emv\App_DetectInput.c,150 .EMV_DetectInput , hSC: 1 ,hCL: 0, hMagnetic : 1, uiTimeout: 0 .
+LCD_Display,uiLine:3 LCD_Display =«Î…‘∫Ú.... 
+..\SRC\emv\App_ApiMap.c, 443 .magcard_close .
+ColdReset OK, ATR:;`
+..\SRC\emv\App_ApiMap.c, 288 .iccard_reset, Ret : 00 .
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+[00:01:17] EMV_Transaction() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+     [00:01:17] EMV_Transaction_Proc() >>
+          need to do init
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:17] EMV_AppCandidateBuild() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:17] EMV_BuildCandlistWithPSE() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:17] EMV_CandidateList_Clear() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:17] EMV_CandidateList_Clear() VOID << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:17] EMV_CMD_Select() >>
+                         AID:(Size=0x000E, 14 Bytes)
+                         31 50 41 59 2E 53 59 53 2E 44 44 46 30 31           
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:17] EMV_SC_ExchangeApdu() >>
+                              APDU Command:(Size=0x0013, 19 Bytes)
+                              00 A4 04 00 0E 31 50 41 59 2E 53 59 53 2E 44 44     
+                              46 30 31                                            
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:18] EMV_SC_ExchangeApdu() bool << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:18] EMV_CMD_Select() EMV_BOOL << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:18] EMV_BuildCandlistWithPSE() << (7)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:18] EMV_AppCandidateBuild() << (7)
+..\SRC\emv\App_ApiMap.c, 303 .iccard_close.
+LCD_Display,uiLine:3 LCD_Display =Ωª“◊÷’÷π. 
+get key:08
+key value is 0x8
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+     [00:01:22] EMV_Transaction_Proc() << (7)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+[00:01:22] EMV_Transaction() << (7)
+..\SRC\emv\App_ApiMap.c, 303 .iccard_close.
+..\SRC\emv\App_ApiMap.c, 263 .SC_Close.
+..\SRC\emv\App_ApiMap.c, 263 .SC_Close.
+ EMV_CL_Close End. 
+..\SRC\emv\App_ApiMap.c, 443 .magcard_close .
+ EMV_MSR_Close. 
+Menu_Select,i : 0,uiStart : 0, uiMenuCount : 9,MAX_MENU_LINES : 3. 
+LCD_Display,uiLine:2 LCD_Display =>Ω”¥•L2≤‚ ‘. 
+Menu_Select,i : 1,uiStart : 0, uiMenuCount : 9,MAX_MENU_LINES : 3. 
+LCD_Display,uiLine:4 LCD_Display = QPBOC L2≤‚ ‘. 
+Menu_Select,i : 2,uiStart : 0, uiMenuCount : 9,MAX_MENU_LINES : 3. 
+LCD_Display,uiLine:6 LCD_Display = ∂¡»’÷æ. 
+Keybget key:08
+key value is 0x8
+oard_KeyHit 
+Keyboard_GetKeyPress 
+Keyboard_GetKeyPress:1 
+EMV_Trans_Proc... 
+..\SRC\emv\App_TermTransLog.c, 597 .flash_read_block, Addr: 1067000, Len : 4, Ret : 0 .
+..\SRC\emv\App_EmvTrans.c ,122 . Trans Log Count : 0, Max Count ; 20. 
+..\SRC\emv\App_ApiMap.c, 249 .iccard_open, nRet : 0 .
+ EMV_SC_Open End. 
+..\SRC\emv\App_ApiMap.c, 428 .magcard_open, Ret : 0 .
+ EMV_MS_Open End. 
+LCD_Display,uiLine:3 LCD_Display =«Î≤Âø®/À¢ø®<<<. 
+..\SRC\emv\App_DetectInput.c,150 .EMV_DetectInput , hSC: 1 ,hCL: 0, hMagnetic : 1, uiTimeout: 0 .
+LCD_Display,uiLine:3 LCD_Display =«Î…‘∫Ú.... 
+..\SRC\emv\App_ApiMap.c, 443 .magcard_close .
+ColdReset OK, ATR:;`
+..\SRC\emv\App_ApiMap.c, 288 .iccard_reset, Ret : 00 .
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+[00:01:23] EMV_Transaction() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+     [00:01:23] EMV_Transaction_Proc() >>
+          need to do init
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:23] EMV_AppCandidateBuild() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:23] EMV_BuildCandlistWithPSE() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:23] EMV_CandidateList_Clear() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:23] EMV_CandidateList_Clear() VOID << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:23] EMV_CMD_Select() >>
+                         AID:(Size=0x000E, 14 Bytes)
+                         31 50 41 59 2E 53 59 53 2E 44 44 46 30 31           
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_SC_ExchangeApdu() >>
+                              APDU Command:(Size=0x0013, 19 Bytes)
+                              00 A4 04 00 0E 31 50 41 59 2E 53 59 53 2E 44 44     
+                              46 30 31                                            
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                              APDU Response:(Size=0x0028, 40 Bytes)
+                              6F 24 84 0E 31 50 41 59 2E 53 59 53 2E 44 44 46     
+                              30 31 A5 12 88 01 01 5F 2D 08 7A 68 65 6E 66 72     
+                              64 65 9F 11 01 01 90 00                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_SC_ExchangeApdu() bool << (1)
+                         Select Response:(Size=0x0026, 38 Bytes)
+                         6F 24 84 0E 31 50 41 59 2E 53 59 53 2E 44 44 46     
+                         30 31 A5 12 88 01 01 5F 2D 08 7A 68 65 6E 66 72     
+                         64 65 9F 11 01 01                                   
+                         Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:23] EMV_CMD_Select() EMV_BOOL << (1)
+                    Pharse the PSE FCI
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:23] EMV_Pharse_PSE_FCI() >>
+                         FCI:(Size=0x0026, 38 Bytes)
+                         6F 24 84 0E 31 50 41 59 2E 53 59 53 2E 44 44 46     
+                         30 31 A5 12 88 01 01 5F 2D 08 7A 68 65 6E 66 72     
+                         64 65 9F 11 01 01                                   
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_Pharse_TLV() >>
+                              Byte=6F
+                              [6F]File Control Information (FCI) Template
+                                   84 0E 31 50 41 59 2E 53 59 53 2E 44 44 46 30 31     
+                                   A5 12 88 01 01 5F 2D 08 7A 68 65 6E 66 72 64 65     
+                                   9F 11 01 01                                         
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_Pharse_TLV() >>
+                              Byte=84
+                              [84]Dedicated File (DF) Name
+                                   31 50 41 59 2E 53 59 53 2E 44 44 46 30 31           
+                              Byte=A5
+                              [A5]File Control Information (FCI) Proprietary Template
+                                   88 01 01 5F 2D 08 7A 68 65 6E 66 72 64 65 9F 11     
+                                   01 01                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_Pharse_TLV() << (0)
+                         Compare the DF Name.....
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_Pharse_TLV() >>
+                              Byte=88
+                              [88]Short File Identifier (SFI)
+                                   01                                                  
+                              Byte=5F
+                              [5F2D]Language Preference
+                                   7A 68 65 6E 66 72 64 65                             
+                              Byte=9F
+                              [9F11]Issuer Code Table Index
+                                   01                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_Pharse_TLV() << (0)
+                         Get SFI 88.....
+                         SFI:(Size=0x0001, 1 Bytes)
+                         01                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:23] EMV_Pharse_PSE_FCI() << (0)
+                    Read PSE Record......
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:23] EMV_CMD_ReadRecord() >>
+                         SFI=01 Record Number=01
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:23] EMV_SC_ExchangeApdu() >>
+                              APDU Command:(Size=0x0004, 4 Bytes)
+                              00 B2 01 0C                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                              APDU Response:(Size=0x002C, 44 Bytes)
+                              70 28 61 26 4F 07 A0 00 00 03 33 01 01 50 0B 50     
+                              42 4F 43 20 43 72 65 64 69 74 87 01 01 9F 12 0A     
+                              50 42 4F 43 20 44 45 42 49 54 90 00                 
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_SC_ExchangeApdu() bool << (1)
+                         Record Data:(Size=0x002A, 42 Bytes)
+                         70 28 61 26 4F 07 A0 00 00 03 33 01 01 50 0B 50     
+                         42 4F 43 20 43 72 65 64 69 74 87 01 01 9F 12 0A     
+                         50 42 4F 43 20 44 45 42 49 54                       
+                         Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:24] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:24] EMV_Pharse_App_Template() >>
+                         App Template Data:(Size=0x0028, 40 Bytes)
+                         61 26 4F 07 A0 00 00 03 33 01 01 50 0B 50 42 4F     
+                         43 20 43 72 65 64 69 74 87 01 01 9F 12 0A 50 42     
+                         4F 43 20 44 45 42 49 54                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_Pharse_TLV() >>
+                              Byte=61
+                              [61]Application Template
+                                   4F 07 A0 00 00 03 33 01 01 50 0B 50 42 4F 43 20     
+                                   43 72 65 64 69 74 87 01 01 9F 12 0A 50 42 4F 43     
+                                   20 44 45 42 49 54                                   
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_Pharse_TLV() >>
+                              Byte=4F
+                              [4F]Application Identifier (AID) - Card
+                                   A0 00 00 03 33 01 01                                
+                              Byte=50
+                              [50]Application Label
+                                   50 42 4F 43 20 43 72 65 64 69 74                    
+                              Byte=87
+                              [87]Application Priority Indicator
+                                   01                                                  
+                              Byte=9F
+                              [9F12]Application Preferred Name
+                                   50 42 4F 43 20 44 45 42 49 54                       
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_Pharse_TLV() << (0)
+                         AID:(Size=0x0007, 7 Bytes)
+                         A0 00 00 03 33 01 01                                
+                         App Label:(Size=0x000B, 11 Bytes)
+                         50 42 4F 43 20 43 72 65 64 69 74                    
+                         Preferred App Name:(Size=0x000A, 10 Bytes)
+                         50 42 4F 43 20 44 45 42 49 54                       
+                         Application Priority Identifier:(Size=0x0001, 1 Bytes)
+                         01                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:24] EMV_Pharse_App_Template() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:24] EMV_CandidateList_Add_Ex() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_CandidateList_GetCount() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_CandidateList_GetCount() count << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_CandidateList_MatchTerminalAID() >>
+AidGetCount >>>
+AidGetCount <<< ret : 18
+AidGet >>>
+AidGet <<< ret : 0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_CandidateList_MatchTerminalAID() EMV_BOOL << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:24] EMV_CandidateList_Add_Ex() BOOL << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:24] EMV_CMD_ReadRecord() >>
+                         SFI=01 Record Number=02
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_SC_ExchangeApdu() >>
+                              APDU Command:(Size=0x0004, 4 Bytes)
+                              00 B2 02 0C                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                              APDU Response:(Size=0x0002, 2 Bytes)
+                              6A 83                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:24] EMV_SC_ExchangeApdu() bool << (1)
+                         Record Data:(Size=0x0000, 0 Bytes)
+                         Status Word: 6A83
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:24] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:24] EMV_BuildCandlistWithPSE() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:24] EMV_CandidateList_GetCount() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:25] EMV_CandidateList_GetCount() count << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:25] EMV_CandidateList_GetCount() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:25] EMV_CandidateList_GetCount() count << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:25] EMV_CandidateList_GetCount() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:25] EMV_CandidateList_GetCount() count << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:25] EMV_AppCandidateBuild() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:25] EMV_CandidateList_GetCount() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:25] EMV_CandidateList_GetCount() count << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:25] EMV_CandidateList_GetItem() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:25] EMV_CandidateList_GetItem() BOOL << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:25] EMV_AppFinalSelect() >>
+               Application ID:(Size=0x0007, 7 Bytes)
+               A0 00 00 03 33 01 01                                
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:25] EMV_CMD_Select() >>
+                    AID:(Size=0x0007, 7 Bytes)
+                    A0 00 00 03 33 01 01                                
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:25] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x000C, 12 Bytes)
+                         00 A4 04 00 07 A0 00 00 03 33 01 01                 
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x0057, 87 Bytes)
+                         6F 53 84 07 A0 00 00 03 33 01 01 A5 48 50 0A 50     
+                         42 4F 43 20 44 45 42 49 54 87 01 01 9F 38 12 9F     
+                         1A 02 9F 33 03 9F 40 05 9F 1B 04 9F 09 02 9F 35     
+                         01 5F 2D 08 7A 68 65 6E 66 72 64 65 9F 11 01 01     
+                         9F 12 0A 50 42 4F 43 20 44 45 42 49 54 BF 0C 05     
+                         DF 4D 02 0C 0A 90 00                                
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:25] EMV_SC_ExchangeApdu() bool << (1)
+                    Select Response:(Size=0x0055, 85 Bytes)
+                    6F 53 84 07 A0 00 00 03 33 01 01 A5 48 50 0A 50     
+                    42 4F 43 20 44 45 42 49 54 87 01 01 9F 38 12 9F     
+                    1A 02 9F 33 03 9F 40 05 9F 1B 04 9F 09 02 9F 35     
+                    01 5F 2D 08 7A 68 65 6E 66 72 64 65 9F 11 01 01     
+                    9F 12 0A 50 42 4F 43 20 44 45 42 49 54 BF 0C 05     
+                    DF 4D 02 0C 0A                                      
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:25] EMV_CMD_Select() EMV_BOOL << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:25] EMV_Pharse_App_FCI() >>
+                    FCI:(Size=0x0055, 85 Bytes)
+                    6F 53 84 07 A0 00 00 03 33 01 01 A5 48 50 0A 50     
+                    42 4F 43 20 44 45 42 49 54 87 01 01 9F 38 12 9F     
+                    1A 02 9F 33 03 9F 40 05 9F 1B 04 9F 09 02 9F 35     
+                    01 5F 2D 08 7A 68 65 6E 66 72 64 65 9F 11 01 01     
+                    9F 12 0A 50 42 4F 43 20 44 45 42 49 54 BF 0C 05     
+                    DF 4D 02 0C 0A                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:25] EMV_Pharse_TLV() >>
+                         Byte=6F
+                         [6F]File Control Information (FCI) Template
+                              84 07 A0 00 00 03 33 01 01 A5 48 50 0A 50 42 4F     
+                              43 20 44 45 42 49 54 87 01 01 9F 38 12 9F 1A 02     
+                              9F 33 03 9F 40 05 9F 1B 04 9F 09 02 9F 35 01 5F     
+                              2D 08 7A 68 65 6E 66 72 64 65 9F 11 01 01 9F 12     
+                              0A 50 42 4F 43 20 44 45 42 49 54 BF 0C 05 DF 4D     
+                              02 0C 0A                                            
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:25] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:25] EMV_Pharse_TLV() >>
+                         Byte=84
+                         [84]Dedicated File (DF) Name
+                              A0 00 00 03 33 01 01                                
+                         Byte=A5
+                         [A5]File Control Information (FCI) Proprietary Template
+                              50 0A 50 42 4F 43 20 44 45 42 49 54 87 01 01 9F     
+                              38 12 9F 1A 02 9F 33 03 9F 40 05 9F 1B 04 9F 09     
+                              02 9F 35 01 5F 2D 08 7A 68 65 6E 66 72 64 65 9F     
+                              11 01 01 9F 12 0A 50 42 4F 43 20 44 45 42 49 54     
+                              BF 0C 05 DF 4D 02 0C 0A                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:25] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:25] EMV_Pharse_TLV() >>
+                         Byte=50
+                         [50]Application Label
+                              50 42 4F 43 20 44 45 42 49 54                       
+                         Byte=87
+                         [87]Application Priority Indicator
+                              01                                                  
+                         Byte=9F
+                         [9F38]Processing Options Data Object List (PDOL)
+                              9F 1A 02 9F 33 03 9F 40 05 9F 1B 04 9F 09 02 9F     
+                              35 01                                               
+                         Byte=5F
+                         [5F2D]Language Preference
+                              7A 68 65 6E 66 72 64 65                             
+                         Byte=9F
+                         [9F11]Issuer Code Table Index
+                              01                                                  
+                         Byte=9F
+                         [9F12]Application Preferred Name
+                              50 42 4F 43 20 44 45 42 49 54                       
+                         Byte=BF
+                         [BF0C]File Control Information (FCI) Issuer Discretionary Data
+                              DF 4D 02 0C 0A                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:26] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:26] EMV_Pharse_TLV() >>
+                         Byte=DF
+                         [DF4D]
+                              0C 0A                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:26] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:26] EMV_Pharse_App_FCI() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:26] EMV_CandidateList_MatchTerminalAID() >>
+AidGetCount >>>
+AidGetCount <<< ret : 18
+AidGet >>>
+AidGet <<< ret : 0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:26] EMV_CandidateList_MatchTerminalAID() EMV_BOOL << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_AppFinalSelect() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_LanguageSelect() >>
+LCD_SaveScreen ... 
+LCD_RestoreScreen ... 
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_LanguageSelect() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_PrepareTerminalData() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:26] EMV_TVR_Set() >>
+                    TVR ID:FFFF
+                    TVR Before Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    TVR After Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:26] EMV_TVR_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:26] EMV_TSI_Set() >>
+                    TSI Before Set:(Size=0x0002, 2 Bytes)
+                    00 00                                               
+                    TSI After Set:(Size=0x0002, 2 Bytes)
+                    00 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:26] EMV_TSI_Set() << (0)
+               Unpredictable Number:(Size=0x0004, 4 Bytes)
+               78 FD 34 95                                         
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               Transaction Date:(Size=0x0004, 4 Bytes)
+               20 00 01 01                                         
+               Transaction Time:(Size=0x0003, 3 Bytes)
+               00 01 26                                            
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_PrepareTerminalData() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_PrepareTerminalDataFromAid() >>
+               AID:(Size=0x0007, 7 Bytes)
+               A0 00 00 03 33 01 01                                
+               Terminal App Version:(Size=0x0002, 2 Bytes)
+               00 30                                               
+               Terminal Floor Limit : 10000
+
+               DEFAULT DDOL:(Size=0x0003, 3 Bytes)
+               9F 37 04                                            
+               DEFAULT TDOL:(Size=0x0003, 3 Bytes)
+               9F 37 04                                            
+               TAC-Deinial:(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               TAC-Online:(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               TAC-Default:(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               Treshold Value : 0
+
+               Target Percentage : 0
+
+               Max Target Percentage : 0
+
+               EC Trans Limit : 20000
+
+               Contactless Max Trans Amount : 20000
+
+               Contactless CVM Amount : 10000
+
+               Terminal Acquire ID:(Size=0x0006, 6 Bytes)
+               12 34 56 78 91 00                                   
+               Terminal ID : Front123
+               Merchant Category Code:(Size=0x0002, 2 Bytes)
+               12 34                                               
+               Merchant ID : 000000000000000
+               Merchant Name Location : Terminal
+               Transaction Currency Code:(Size=0x0002, 2 Bytes)
+               08 40                                               
+               Trans Currency Exp : 2
+               Transaction Ref Currency Code:(Size=0x0002, 2 Bytes)
+               08 40                                               
+               Trans Ref Currency Exp : 2
+               TRMData:(Size=0x0001, 1 Bytes)
+               01                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_PrepareTerminalDataFromAid() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_GetTerminalInfo() >>
+               Terminal ID:Front123
+               Terminal IDF Serial Number:Terminal
+               Terminal Country Code:(Size=0x0002, 2 Bytes)
+               01 56                                               
+               Merchant ID:000000000000000
+               Terminal Category Code:(Size=0x0002, 2 Bytes)
+               12 34                                               
+               Merchant Name Location:Terminal
+               Transaction Currency Code:(Size=0x0002, 2 Bytes)
+               08 40                                               
+               Trans Currency Exp:2
+               Transaction Ref Currency Code:(Size=0x0002, 2 Bytes)
+               08 40                                               
+               Trans Ref Currency Exp:2
+               Terminal Entry Mode:(Size=0x0001, 1 Bytes)
+               05                                                  
+               Terminal Acquire ID:4Vxë
+               Application Version:(Size=0x0002, 2 Bytes)
+               00 30                                               
+               Default DDOL:(Size=0x0003, 3 Bytes)
+               9F 37 04                                            
+               Default TDOL:(Size=0x0003, 3 Bytes)
+               9F 37 04                                            
+               TAC Denial:(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               TAC Denial:(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               TAC Denial:(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               Temrianl Floor Limit:10000
+               Threshold Valuet:0
+               Target Percent:0
+               Max Target Percent:0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_GetTerminalInfo() << (0)
+          Terminal ID:Front123
+          Terminal IDF Serial Number:Terminal
+          Terminal Country Code:(Size=0x0002, 2 Bytes)
+          01 56                                               
+          Merchant ID:000000000000000
+          Terminal Category Code :(Size=0x0002, 2 Bytes)
+          12 34                                               
+          Merchant Name Location:Terminal
+          Transaction Currency Code:(Size=0x0002, 2 Bytes)
+          08 40                                               
+          Trans Currency Exp:(Size=0x0001, 1 Bytes)
+          02                                                  
+          Transaction Ref Currency Code:(Size=0x0002, 2 Bytes)
+          08 40                                               
+          Trans Ref Currency Exp:2
+          Terminal Entry Mode:(Size=0x0001, 1 Bytes)
+          05                                                  
+          Terminal Acquire ID:4Vxë
+          Application Version:(Size=0x0002, 2 Bytes)
+          00 30                                               
+          Default DDOL:(Size=0x0003, 3 Bytes)
+          9F 37 04                                            
+          Default TDOL:(Size=0x0003, 3 Bytes)
+          9F 37 04                                            
+          TAC Denial:(Size=0x0005, 5 Bytes)
+          00 00 00 00 00                                      
+          TAC Denial:(Size=0x0005, 5 Bytes)
+          00 00 00 00 00                                      
+          TAC Denial:(Size=0x0005, 5 Bytes)
+          00 00 00 00 00                                      
+          Temrianl Floor Limit:10000
+          Threshold Valuet:0
+          Target Percent:0
+          Max Target Percent:0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:26] EMV_GetProcessOptions() >>
+               PDOL:(Size=0x0012, 18 Bytes)
+               9F 1A 02 9F 33 03 9F 40 05 9F 1B 04 9F 09 02 9F     
+               35 01                                               
+               KernelType=0(PBOC=3)
+               PDOL:(Size=0x0012, 18 Bytes)
+               9F 1A 02 9F 33 03 9F 40 05 9F 1B 04 9F 09 02 9F     
+               35 01                                               
+               DF69 not in PDOL
+               Tag=9F1A, Length=2
+               Actual Value:(Size=0x0002, 2 Bytes)
+               01 56                                               
+               Tag=9F33, Length=3
+               Actual Value:(Size=0x0003, 3 Bytes)
+               E0 D8 C8                                            
+               Tag=9F40, Length=5
+               Actual Value:(Size=0x0005, 5 Bytes)
+               62 00 F0 20 01                                      
+               Tag=9F1B, Length=4
+               Actual Value:(Size=0x0004, 4 Bytes)
+               00 00 27 10                                         
+               Tag=9F09, Length=2
+               Actual Value:(Size=0x0002, 2 Bytes)
+               00 30                                               
+               Tag=9F35, Length=1
+               Actual Value:(Size=0x0001, 1 Bytes)
+               22                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:27] EMV_CMD_GetProcessOptions() >>
+                    PDOL Data:(Size=0x0013, 19 Bytes)
+                    83 11 01 56 E0 D8 C8 62 00 F0 20 01 00 00 27 10     
+                    00 30 22                                            
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:27] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0018, 24 Bytes)
+                         80 A8 00 00 13 83 11 01 56 E0 D8 C8 62 00 F0 20     
+                         01 00 00 27 10 00 30 22                             
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x0012, 18 Bytes)
+                         80 0E 7C 00 08 01 01 00 10 01 03 01 18 01 04 00     
+                         90 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:27] EMV_SC_ExchangeApdu() bool << (1)
+                    GPO Response:(Size=0x0010, 16 Bytes)
+                    80 0E 7C 00 08 01 01 00 10 01 03 01 18 01 04 00     
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:27] EMV_CMD_GetProcessOptions()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:27] EMV_Pharse_GPO_Response() >>
+                    GPO Response:(Size=0x0010, 16 Bytes)
+                    80 0E 7C 00 08 01 01 00 10 01 03 01 18 01 04 00     
+                    AIP:(Size=0x0002, 2 Bytes)
+                    7C 00                                               
+                    AFL:(Size=0x000C, 12 Bytes)
+                    08 01 01 00 10 01 03 01 18 01 04 00                 
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:27] EMV_Pharse_GPO_Response() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:27] EMV_GetProcessOptions() << (0)
+..\SRC\emv\App_Callback.c ,634 .EMV_EnterAmount ... 
+LCD_SaveScreen ... 
+LCD_Display,uiLine:4 LCD_Display =0.00. 
+get key:32
+key value is 0x32
+LCD_Display,uiLine:4 LCD_Display =0.02. 
+get key:08
+key value is 0x8
+LCD_Display,uiLine:1 LCD_Display =Ω∂Ó:. 
+LCD_Display,uiLine:3 LCD_Display =0.02. 
+LCD_Display,uiLine:5 LCD_Display =Ω∂Ó’˝»∑”Î∑Ò?. 
+get key:08
+key value is 0x8
+LCD_Display,uiLine:3 LCD_Display =«Î…‘∫Ú.... 
+          Amount=0.02 AmountOther=0.00
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:32] EMV_SetTransactionAmount() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:32] EMV_SetTransactionAmount() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:32] EMV_ReadRecordData() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:32] EMV_CMD_ReadRecord() >>
+                    SFI=01 Record Number=01
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:32] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0004, 4 Bytes)
+                         00 B2 01 0C                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x0042, 66 Bytes)
+                         70 3E 5F 20 0F 46 55 4C 4C 20 46 55 4E 43 54 49     
+                         4F 4E 41 4C 57 11 62 28 00 01 00 00 11 17 D2 01     
+                         22 01 01 23 45 67 89 9F 1F 16 30 31 30 32 30 33     
+                         30 34 30 35 30 36 30 37 30 38 30 39 30 41 30 42     
+                         90 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:32] EMV_SC_ExchangeApdu() bool << (1)
+                    Record Data:(Size=0x0040, 64 Bytes)
+                    70 3E 5F 20 0F 46 55 4C 4C 20 46 55 4E 43 54 49     
+                    4F 4E 41 4C 57 11 62 28 00 01 00 00 11 17 D2 01     
+                    22 01 01 23 45 67 89 9F 1F 16 30 31 30 32 30 33     
+                    30 34 30 35 30 36 30 37 30 38 30 39 30 41 30 42     
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:32] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:32] EMV_Pharse_RecordData() >>
+                    Record Data:(Size=0x0040, 64 Bytes)
+                    70 3E 5F 20 0F 46 55 4C 4C 20 46 55 4E 43 54 49     
+                    4F 4E 41 4C 57 11 62 28 00 01 00 00 11 17 D2 01     
+                    22 01 01 23 45 67 89 9F 1F 16 30 31 30 32 30 33     
+                    30 34 30 35 30 36 30 37 30 38 30 39 30 41 30 42     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:32] EMV_Pharse_TLV() >>
+                         Byte=5F
+                         [5F20]Cardholder Name
+                              46 55 4C 4C 20 46 55 4E 43 54 49 4F 4E 41 4C        
+                         Byte=57
+                         [57]Track 2 Equivalent Data
+                              62 28 00 01 00 00 11 17 D2 01 22 01 01 23 45 67     
+                              89                                                  
+                         Byte=9F
+                         [9F1F]Track 1 Discretionary Data
+                              30 31 30 32 30 33 30 34 30 35 30 36 30 37 30 38     
+                              30 39 30 41 30 42                                   
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:32] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:32] EMV_Pharse_RecordData() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:32] EMV_CMD_ReadRecord() >>
+                    SFI=02 Record Number=01
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:32] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0004, 4 Bytes)
+                         00 B2 01 14                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x0012, 18 Bytes)
+                         70 0E 5A 08 62 28 00 01 00 00 11 17 5F 34 01 01     
+                         90 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:33] EMV_SC_ExchangeApdu() bool << (1)
+                    Record Data:(Size=0x0010, 16 Bytes)
+                    70 0E 5A 08 62 28 00 01 00 00 11 17 5F 34 01 01     
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:33] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:33] EMV_Pharse_RecordData() >>
+                    Record Data:(Size=0x0010, 16 Bytes)
+                    70 0E 5A 08 62 28 00 01 00 00 11 17 5F 34 01 01     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:33] EMV_Pharse_TLV() >>
+                         Byte=5A
+                         [5A]Application Primary Account Number (PAN)
+                              62 28 00 01 00 00 11 17                             
+                         Byte=5F
+                         [5F34]Application Primary Account Number (PAN) Sequence Number
+                              01                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:33] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:33] EMV_Pharse_RecordData() << (0)
+               Add Data to SDA record data:(Size=0x000E, 14 Bytes)
+               5A 08 62 28 00 01 00 00 11 17 5F 34 01 01           
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:33] EMV_CMD_ReadRecord() >>
+                    SFI=02 Record Number=02
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:33] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0004, 4 Bytes)
+                         00 B2 02 14                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x003C, 60 Bytes)
+                         70 38 8C 17 95 05 9B 02 9F 02 06 9F 03 06 9F 1A     
+                         02 5F 2A 02 9A 03 9C 01 9F 37 04 8D 05 90 60 9F     
+                         32 01 9F 0E 05 00 00 00 00 00 9F 0D 05 00 00 00     
+                         00 00 9F 0F 05 FF FF FF FF FF 90 00                 
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:33] EMV_SC_ExchangeApdu() bool << (1)
+                    Record Data:(Size=0x003A, 58 Bytes)
+                    70 38 8C 17 95 05 9B 02 9F 02 06 9F 03 06 9F 1A     
+                    02 5F 2A 02 9A 03 9C 01 9F 37 04 8D 05 90 60 9F     
+                    32 01 9F 0E 05 00 00 00 00 00 9F 0D 05 00 00 00     
+                    00 00 9F 0F 05 FF FF FF FF FF                       
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:33] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:33] EMV_Pharse_RecordData() >>
+                    Record Data:(Size=0x003A, 58 Bytes)
+                    70 38 8C 17 95 05 9B 02 9F 02 06 9F 03 06 9F 1A     
+                    02 5F 2A 02 9A 03 9C 01 9F 37 04 8D 05 90 60 9F     
+                    32 01 9F 0E 05 00 00 00 00 00 9F 0D 05 00 00 00     
+                    00 00 9F 0F 05 FF FF FF FF FF                       
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:33] EMV_Pharse_TLV() >>
+                         Byte=8C
+                         [8C]Card Risk Management Data Object List 1 (CDOL1)
+                              95 05 9B 02 9F 02 06 9F 03 06 9F 1A 02 5F 2A 02     
+                              9A 03 9C 01 9F 37 04                                
+                         Byte=8D
+                         [8D]Card Risk Management Data Object List 2 (CDOL2)
+                              90 60 9F 32 01                                      
+                         Byte=9F
+                         [9F0E]Issuer Action Code - Denial
+                              00 00 00 00 00                                      
+                         Byte=9F
+                         [9F0D]Issuer Action Code - Default
+                              00 00 00 00 00                                      
+                         Byte=9F
+                         [9F0F]Issuer Action Code - Online
+                              FF FF FF FF FF                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:33] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:33] EMV_Pharse_RecordData() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:33] EMV_CMD_ReadRecord() >>
+                    SFI=02 Record Number=03
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:33] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0004, 4 Bytes)
+                         00 B2 03 14                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x003B, 59 Bytes)
+                         70 37 5F 25 03 95 07 01 5F 24 03 20 12 31 5F 28     
+                         02 01 56 9F 07 02 FF C0 8E 0C 00 00 00 00 00 00     
+                         00 00 5F 03 00 00 9F 08 02 00 30 5F 30 02 02 01     
+                         9F 42 02 01 56 9F 4A 01 82 90 00                    
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:34] EMV_SC_ExchangeApdu() bool << (1)
+                    Record Data:(Size=0x0039, 57 Bytes)
+                    70 37 5F 25 03 95 07 01 5F 24 03 20 12 31 5F 28     
+                    02 01 56 9F 07 02 FF C0 8E 0C 00 00 00 00 00 00     
+                    00 00 5F 03 00 00 9F 08 02 00 30 5F 30 02 02 01     
+                    9F 42 02 01 56 9F 4A 01 82                          
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:34] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:34] EMV_Pharse_RecordData() >>
+                    Record Data:(Size=0x0039, 57 Bytes)
+                    70 37 5F 25 03 95 07 01 5F 24 03 20 12 31 5F 28     
+                    02 01 56 9F 07 02 FF C0 8E 0C 00 00 00 00 00 00     
+                    00 00 5F 03 00 00 9F 08 02 00 30 5F 30 02 02 01     
+                    9F 42 02 01 56 9F 4A 01 82                          
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:34] EMV_Pharse_TLV() >>
+                         Byte=5F
+                         [5F25]Application Effective Date
+                              95 07 01                                            
+                         Byte=5F
+                         [5F24]Application Expiration Date
+                              20 12 31                                            
+                         Byte=5F
+                         [5F28]Issuer Country Code
+                              01 56                                               
+                         Byte=9F
+                         [9F07]Application Usage Control
+                              FF C0                                               
+                         Byte=8E
+                         [8E]Cardholder Verification Method (CVM) List
+                              00 00 00 00 00 00 00 00 5F 03 00 00                 
+                         Byte=9F
+                         [9F08]Application Version Number
+                              00 30                                               
+                         Byte=5F
+                         [5F30]Service Code
+                              02 01                                               
+                         Byte=9F
+                         [9F42]Application Currency Code
+                              01 56                                               
+                         Byte=9F
+                         [9F4A]Static Data Authentication Tag List
+                              82                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:34] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:34] EMV_Pharse_RecordData() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:34] EMV_CMD_ReadRecord() >>
+                    SFI=03 Record Number=01
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:34] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0004, 4 Bytes)
+                         00 B2 01 1C                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x0088, 136 Bytes)
+                         70 81 83 90 81 80 25 3C 3C 1F D9 92 8D 88 21 11     
+                         A6 AC 4C A2 07 DF 93 10 64 23 95 EA 09 7B 3C B1     
+                         6D 51 76 53 35 38 03 C2 C1 03 3E 4A AC B9 73 5D     
+                         2E 69 CA 49 8F EB 4C C0 AE E1 FF C7 F5 44 83 09     
+                         3A 30 CC BF 6B 20 11 D6 09 E5 2F D7 87 76 B6 6B     
+                         6D 86 95 CB C0 46 21 6B F8 1C 52 D5 C2 F9 47 DE     
+                         E3 AD D7 20 9A B3 27 F2 9C 10 6B FA 0E 29 1D 9D     
+                         AB 00 91 06 F4 89 BA 59 43 6D A9 46 75 DF 9D 31     
+                         DC AF BD 6A BE 20 90 00                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:35] EMV_SC_ExchangeApdu() bool << (1)
+                    Record Data:(Size=0x0086, 134 Bytes)
+                    70 81 83 90 81 80 25 3C 3C 1F D9 92 8D 88 21 11     
+                    A6 AC 4C A2 07 DF 93 10 64 23 95 EA 09 7B 3C B1     
+                    6D 51 76 53 35 38 03 C2 C1 03 3E 4A AC B9 73 5D     
+                    2E 69 CA 49 8F EB 4C C0 AE E1 FF C7 F5 44 83 09     
+                    3A 30 CC BF 6B 20 11 D6 09 E5 2F D7 87 76 B6 6B     
+                    6D 86 95 CB C0 46 21 6B F8 1C 52 D5 C2 F9 47 DE     
+                    E3 AD D7 20 9A B3 27 F2 9C 10 6B FA 0E 29 1D 9D     
+                    AB 00 91 06 F4 89 BA 59 43 6D A9 46 75 DF 9D 31     
+                    DC AF BD 6A BE 20                                   
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:35] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:35] EMV_Pharse_RecordData() >>
+                    Record Data:(Size=0x0086, 134 Bytes)
+                    70 81 83 90 81 80 25 3C 3C 1F D9 92 8D 88 21 11     
+                    A6 AC 4C A2 07 DF 93 10 64 23 95 EA 09 7B 3C B1     
+                    6D 51 76 53 35 38 03 C2 C1 03 3E 4A AC B9 73 5D     
+                    2E 69 CA 49 8F EB 4C C0 AE E1 FF C7 F5 44 83 09     
+                    3A 30 CC BF 6B 20 11 D6 09 E5 2F D7 87 76 B6 6B     
+                    6D 86 95 CB C0 46 21 6B F8 1C 52 D5 C2 F9 47 DE     
+                    E3 AD D7 20 9A B3 27 F2 9C 10 6B FA 0E 29 1D 9D     
+                    AB 00 91 06 F4 89 BA 59 43 6D A9 46 75 DF 9D 31     
+                    DC AF BD 6A BE 20                                   
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:35] EMV_Pharse_TLV() >>
+                         Byte=90
+                         [90]Issuer Public Key Certificate
+                              25 3C 3C 1F D9 92 8D 88 21 11 A6 AC 4C A2 07 DF     
+                              93 10 64 23 95 EA 09 7B 3C B1 6D 51 76 53 35 38     
+                              03 C2 C1 03 3E 4A AC B9 73 5D 2E 69 CA 49 8F EB     
+                              4C C0 AE E1 FF C7 F5 44 83 09 3A 30 CC BF 6B 20     
+                              11 D6 09 E5 2F D7 87 76 B6 6B 6D 86 95 CB C0 46     
+                              21 6B F8 1C 52 D5 C2 F9 47 DE E3 AD D7 20 9A B3     
+                              27 F2 9C 10 6B FA 0E 29 1D 9D AB 00 91 06 F4 89     
+                              BA 59 43 6D A9 46 75 DF 9D 31 DC AF BD 6A BE 20     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:35] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:35] EMV_Pharse_RecordData() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:35] EMV_CMD_ReadRecord() >>
+                    SFI=03 Record Number=02
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:35] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0004, 4 Bytes)
+                         00 B2 02 1C                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x007A, 122 Bytes)
+                         70 76 8F 01 61 9F 49 15 9F 02 06 9F 03 06 9F 1A     
+                         02 95 05 5F 2A 02 9A 03 9C 01 9F 37 04 9F 32 01     
+                         03 9F 47 01 03 9F 48 2A AA 1E 6C 89 EF DA 05 3B     
+                         78 C7 D7 E6 65 F2 FD 04 83 5D 01 16 6C 52 09 22     
+                         94 F2 A0 50 DE 5E 4F 24 A5 4E 59 11 16 78 EB B2     
+                         C6 B9 92 24 5C 2B FD 27 CD 7F 49 B1 17 0F C7 93     
+                         EF 7E 11 A9 4F C3 C7 72 61 CB C3 9B 36 79 DD 79     
+                         94 CC 36 85 2E 9A 19 01 90 00                       
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:35] EMV_SC_ExchangeApdu() bool << (1)
+                    Record Data:(Size=0x0078, 120 Bytes)
+                    70 76 8F 01 61 9F 49 15 9F 02 06 9F 03 06 9F 1A     
+                    02 95 05 5F 2A 02 9A 03 9C 01 9F 37 04 9F 32 01     
+                    03 9F 47 01 03 9F 48 2A AA 1E 6C 89 EF DA 05 3B     
+                    78 C7 D7 E6 65 F2 FD 04 83 5D 01 16 6C 52 09 22     
+                    94 F2 A0 50 DE 5E 4F 24 A5 4E 59 11 16 78 EB B2     
+                    C6 B9 92 24 5C 2B FD 27 CD 7F 49 B1 17 0F C7 93     
+                    EF 7E 11 A9 4F C3 C7 72 61 CB C3 9B 36 79 DD 79     
+                    94 CC 36 85 2E 9A 19 01                             
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:36] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:36] EMV_Pharse_RecordData() >>
+                    Record Data:(Size=0x0078, 120 Bytes)
+                    70 76 8F 01 61 9F 49 15 9F 02 06 9F 03 06 9F 1A     
+                    02 95 05 5F 2A 02 9A 03 9C 01 9F 37 04 9F 32 01     
+                    03 9F 47 01 03 9F 48 2A AA 1E 6C 89 EF DA 05 3B     
+                    78 C7 D7 E6 65 F2 FD 04 83 5D 01 16 6C 52 09 22     
+                    94 F2 A0 50 DE 5E 4F 24 A5 4E 59 11 16 78 EB B2     
+                    C6 B9 92 24 5C 2B FD 27 CD 7F 49 B1 17 0F C7 93     
+                    EF 7E 11 A9 4F C3 C7 72 61 CB C3 9B 36 79 DD 79     
+                    94 CC 36 85 2E 9A 19 01                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:36] EMV_Pharse_TLV() >>
+                         Byte=8F
+                         [8F]Certification Authority Public Key Index
+                              61                                                  
+                         Byte=9F
+                         [9F49]Dynamic Data Authentication Data Object List (DDOL)
+                              9F 02 06 9F 03 06 9F 1A 02 95 05 5F 2A 02 9A 03     
+                              9C 01 9F 37 04                                      
+                         Byte=9F
+                         [9F32]Issuer Public Key Exponent
+                              03                                                  
+                         Byte=9F
+                         [9F47]Integrated Circuit Card (ICC) Public Key Exponent
+                              03                                                  
+                         Byte=9F
+                         [9F48]Integrated Circuit Card (ICC) Public Key Remainder
+                              AA 1E 6C 89 EF DA 05 3B 78 C7 D7 E6 65 F2 FD 04     
+                              83 5D 01 16 6C 52 09 22 94 F2 A0 50 DE 5E 4F 24     
+                              A5 4E 59 11 16 78 EB B2 C6 B9                       
+                         Byte=92
+                         [92]Issuer Public Key Remainder
+                              5C 2B FD 27 CD 7F 49 B1 17 0F C7 93 EF 7E 11 A9     
+                              4F C3 C7 72 61 CB C3 9B 36 79 DD 79 94 CC 36 85     
+                              2E 9A 19 01                                         
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:36] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:36] EMV_Pharse_RecordData() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:36] EMV_CMD_ReadRecord() >>
+                    SFI=03 Record Number=03
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:36] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0004, 4 Bytes)
+                         00 B2 03 1C                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x0089, 137 Bytes)
+                         70 81 84 9F 46 81 80 66 7C 76 51 44 7D 73 6A A2     
+                         EF FF 59 19 51 E1 D3 14 B5 82 42 C0 A4 FB CA 63     
+                         7D B0 40 66 DB C3 53 4E B3 33 41 1D 3E BB 0D 62     
+                         5D 01 A2 53 53 B4 C3 72 ED 21 F3 68 DD 1D 09 02     
+                         64 13 A6 96 68 1E BC 41 63 37 21 8E 6E 24 99 D0     
+                         E2 13 EB 81 10 C0 0F 1B 4F CA 63 CC B9 F8 07 4F     
+                         0A D6 59 54 7F 20 89 FF 22 06 9B DC 4B 1F D7 68     
+                         3B 7C D2 E8 A3 56 65 E5 E0 E8 25 CD 49 3D AF AF     
+                         83 27 FE 9D A3 8E 80 90 00                          
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:36] EMV_SC_ExchangeApdu() bool << (1)
+                    Record Data:(Size=0x0087, 135 Bytes)
+                    70 81 84 9F 46 81 80 66 7C 76 51 44 7D 73 6A A2     
+                    EF FF 59 19 51 E1 D3 14 B5 82 42 C0 A4 FB CA 63     
+                    7D B0 40 66 DB C3 53 4E B3 33 41 1D 3E BB 0D 62     
+                    5D 01 A2 53 53 B4 C3 72 ED 21 F3 68 DD 1D 09 02     
+                    64 13 A6 96 68 1E BC 41 63 37 21 8E 6E 24 99 D0     
+                    E2 13 EB 81 10 C0 0F 1B 4F CA 63 CC B9 F8 07 4F     
+                    0A D6 59 54 7F 20 89 FF 22 06 9B DC 4B 1F D7 68     
+                    3B 7C D2 E8 A3 56 65 E5 E0 E8 25 CD 49 3D AF AF     
+                    83 27 FE 9D A3 8E 80                                
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:37] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:37] EMV_Pharse_RecordData() >>
+                    Record Data:(Size=0x0087, 135 Bytes)
+                    70 81 84 9F 46 81 80 66 7C 76 51 44 7D 73 6A A2     
+                    EF FF 59 19 51 E1 D3 14 B5 82 42 C0 A4 FB CA 63     
+                    7D B0 40 66 DB C3 53 4E B3 33 41 1D 3E BB 0D 62     
+                    5D 01 A2 53 53 B4 C3 72 ED 21 F3 68 DD 1D 09 02     
+                    64 13 A6 96 68 1E BC 41 63 37 21 8E 6E 24 99 D0     
+                    E2 13 EB 81 10 C0 0F 1B 4F CA 63 CC B9 F8 07 4F     
+                    0A D6 59 54 7F 20 89 FF 22 06 9B DC 4B 1F D7 68     
+                    3B 7C D2 E8 A3 56 65 E5 E0 E8 25 CD 49 3D AF AF     
+                    83 27 FE 9D A3 8E 80                                
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:37] EMV_Pharse_TLV() >>
+                         Byte=9F
+                         [9F46]Integrated Circuit Card (ICC) Public Key Certificate
+                              66 7C 76 51 44 7D 73 6A A2 EF FF 59 19 51 E1 D3     
+                              14 B5 82 42 C0 A4 FB CA 63 7D B0 40 66 DB C3 53     
+                              4E B3 33 41 1D 3E BB 0D 62 5D 01 A2 53 53 B4 C3     
+                              72 ED 21 F3 68 DD 1D 09 02 64 13 A6 96 68 1E BC     
+                              41 63 37 21 8E 6E 24 99 D0 E2 13 EB 81 10 C0 0F     
+                              1B 4F CA 63 CC B9 F8 07 4F 0A D6 59 54 7F 20 89     
+                              FF 22 06 9B DC 4B 1F D7 68 3B 7C D2 E8 A3 56 65     
+                              E5 E0 E8 25 CD 49 3D AF AF 83 27 FE 9D A3 8E 80     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:37] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:37] EMV_Pharse_RecordData() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:37] EMV_CMD_ReadRecord() >>
+                    SFI=03 Record Number=04
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:37] EMV_SC_ExchangeApdu() >>
+                         APDU Command:(Size=0x0004, 4 Bytes)
+                         00 B2 04 1C                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                         APDU Response:(Size=0x0088, 136 Bytes)
+                         70 81 83 93 81 80 7A 28 D0 85 DA BE A1 E6 2D A4     
+                         88 7F 2B EA 91 9B 6B 77 8C 55 AA B6 B6 D2 83 83     
+                         AC C8 7B 9E EF 4B 80 65 53 18 CF 80 6D 24 47 F5     
+                         A7 02 7E 27 2E 48 22 6D A4 02 D5 B5 2D F4 5C 40     
+                         21 6E 60 41 F3 17 F5 4C 06 D3 70 44 01 BB 06 79     
+                         21 A5 C7 7B 4E 07 C7 16 40 2A 94 C0 88 7D 28 42     
+                         30 4B BF E5 AD A3 86 58 09 7F 3E BD BF AD 1B 98     
+                         42 79 A9 44 90 0B 9D 5B 7A 3C 1A AB 60 B0 F1 8A     
+                         22 76 1C 39 21 F5 90 00                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:37] EMV_SC_ExchangeApdu() bool << (1)
+                    Record Data:(Size=0x0086, 134 Bytes)
+                    70 81 83 93 81 80 7A 28 D0 85 DA BE A1 E6 2D A4     
+                    88 7F 2B EA 91 9B 6B 77 8C 55 AA B6 B6 D2 83 83     
+                    AC C8 7B 9E EF 4B 80 65 53 18 CF 80 6D 24 47 F5     
+                    A7 02 7E 27 2E 48 22 6D A4 02 D5 B5 2D F4 5C 40     
+                    21 6E 60 41 F3 17 F5 4C 06 D3 70 44 01 BB 06 79     
+                    21 A5 C7 7B 4E 07 C7 16 40 2A 94 C0 88 7D 28 42     
+                    30 4B BF E5 AD A3 86 58 09 7F 3E BD BF AD 1B 98     
+                    42 79 A9 44 90 0B 9D 5B 7A 3C 1A AB 60 B0 F1 8A     
+                    22 76 1C 39 21 F5                                   
+                    Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:37] EMV_CMD_ReadRecord()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:37] EMV_Pharse_RecordData() >>
+                    Record Data:(Size=0x0086, 134 Bytes)
+                    70 81 83 93 81 80 7A 28 D0 85 DA BE A1 E6 2D A4     
+                    88 7F 2B EA 91 9B 6B 77 8C 55 AA B6 B6 D2 83 83     
+                    AC C8 7B 9E EF 4B 80 65 53 18 CF 80 6D 24 47 F5     
+                    A7 02 7E 27 2E 48 22 6D A4 02 D5 B5 2D F4 5C 40     
+                    21 6E 60 41 F3 17 F5 4C 06 D3 70 44 01 BB 06 79     
+                    21 A5 C7 7B 4E 07 C7 16 40 2A 94 C0 88 7D 28 42     
+                    30 4B BF E5 AD A3 86 58 09 7F 3E BD BF AD 1B 98     
+                    42 79 A9 44 90 0B 9D 5B 7A 3C 1A AB 60 B0 F1 8A     
+                    22 76 1C 39 21 F5                                   
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:38] EMV_Pharse_TLV() >>
+                         Byte=93
+                         [93]Signed Static Application Data
+                              7A 28 D0 85 DA BE A1 E6 2D A4 88 7F 2B EA 91 9B     
+                              6B 77 8C 55 AA B6 B6 D2 83 83 AC C8 7B 9E EF 4B     
+                              80 65 53 18 CF 80 6D 24 47 F5 A7 02 7E 27 2E 48     
+                              22 6D A4 02 D5 B5 2D F4 5C 40 21 6E 60 41 F3 17     
+                              F5 4C 06 D3 70 44 01 BB 06 79 21 A5 C7 7B 4E 07     
+                              C7 16 40 2A 94 C0 88 7D 28 42 30 4B BF E5 AD A3     
+                              86 58 09 7F 3E BD BF AD 1B 98 42 79 A9 44 90 0B     
+                              9D 5B 7A 3C 1A AB 60 B0 F1 8A 22 76 1C 39 21 F5     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:38] EMV_Pharse_TLV() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_Pharse_RecordData() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_TVR_Set() >>
+                    TVR ID:FFFF
+                    TVR Before Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    TVR After Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_TVR_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_TVR_Set() >>
+                    TVR ID:FFFF
+                    TVR Before Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    TVR After Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_TVR_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:38] EMV_ReadRecordData() << (0)
+          Check Expire Date
+          Expire Date:(Size=0x0003, 3 Bytes)
+          20 12 31                                            
+          Check Effective Date
+          Check CVM List
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:38] EMV_OfflineDataAuth() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_TERM_CAP_Support() >>
+                    Type:00 Index:03 Value:08
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_TERM_CAP_Support() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_AIP_Support() >>
+                    Index:01 Value:01
+                    AIP:(Size=0x0002, 2 Bytes)
+                    7C 00                                               
+                    No Support
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_AIP_Support() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_TERM_CAP_Support() >>
+                    Type:00 Index:03 Value:40
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_TERM_CAP_Support() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_AIP_Support() >>
+                    Index:01 Value:20
+                    AIP:(Size=0x0002, 2 Bytes)
+                    7C 00                                               
+                    Supported
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_AIP_Support() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:38] EMV_DynamicDataAuth() >>
+                    DDOL:(Size=0x0015, 21 Bytes)
+                    9F 02 06 9F 03 06 9F 1A 02 95 05 5F 2A 02 9A 03     
+                    9C 01 9F 37 04                                      
+                    Tag=9F02, Length=6
+                    Actual Value:(Size=0x0006, 6 Bytes)
+                    00 00 00 00 00 02                                   
+                    Tag=9F03, Length=6
+                    Actual Value:(Size=0x0006, 6 Bytes)
+                    00 00 00 00 00 00                                   
+                    Tag=9F1A, Length=2
+                    Actual Value:(Size=0x0002, 2 Bytes)
+                    01 56                                               
+                    Tag=95, Length=5
+                    Actual Value:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    Tag=5F2A, Length=2
+                    Actual Value:(Size=0x0002, 2 Bytes)
+                    08 40                                               
+                    Tag=9A, Length=3
+                    Actual Value:(Size=0x0003, 3 Bytes)
+                    00 01 01                                            
+                    Tag=9C, Length=1
+                    Actual Value:(Size=0x0001, 1 Bytes)
+                    00                                                  
+                    Tag=9F37, Length=4
+                    Actual Value:(Size=0x0004, 4 Bytes)
+                    78 FD 34 95                                         
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:38] EMV_RetrieveICCPK() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:38] EMV_RetrieveIPK() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                              [00:01:38] EMV_RetrieveCAPK() >>
+                                   AID:(Size=0x0007, 7 Bytes)
+                                   A0 00 00 03 33 01 01                                
+                                   CAPK Index:(Size=0x0001, 1 Bytes)
+                                   61                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                                   [00:01:38] EMV_Date_Effectived() >>
+                                        Year=20 Month=12 Day=31
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                                   [00:01:38] EMV_Date_Expired() bool =536922416 << (0)
+                                   Exponents:(Size=0x0001, 1 Bytes)
+                                   03                                                  
+                                   Modules:(Size=0x0080, 128 Bytes)
+                                   83 4D 2A 38 7C 5A 5F 17 6E F3 E6 6C AA F8 3F 19     
+                                   4B 15 AA D2 47 0C 78 C7 7D 6E B3 8E DA E3 A2 F9     
+                                   BA 16 23 F6 A5 8C 89 2C C9 25 63 2D FF 48 CE 95     
+                                   4B 21 A5 3E 1F 1E 43 66 BE 40 3C 27 9B 90 02 7C     
+                                   BC 72 60 5D B6 C7 90 49 B8 99 2C B4 91 2E FA 27     
+                                   0B EC AB 3A 7C EF E0 5B FA 46 E4 C7 BB CF 7C 7A     
+                                   17 3B D9 88 D9 89 B3 2C B7 9F AC 8E 35 FB E1 86     
+                                   0E 7E A9 F2 38 A9 2A 35 93 55 2D 03 D1 E3 86 01     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                              [00:01:38] EMV_RetrieveCAPK() << (0)
+                              IPKC:(Size=0x0080, 128 Bytes)
+                              25 3C 3C 1F D9 92 8D 88 21 11 A6 AC 4C A2 07 DF     
+                              93 10 64 23 95 EA 09 7B 3C B1 6D 51 76 53 35 38     
+                              03 C2 C1 03 3E 4A AC B9 73 5D 2E 69 CA 49 8F EB     
+                              4C C0 AE E1 FF C7 F5 44 83 09 3A 30 CC BF 6B 20     
+                              11 D6 09 E5 2F D7 87 76 B6 6B 6D 86 95 CB C0 46     
+                              21 6B F8 1C 52 D5 C2 F9 47 DE E3 AD D7 20 9A B3     
+                              27 F2 9C 10 6B FA 0E 29 1D 9D AB 00 91 06 F4 89     
+                              BA 59 43 6D A9 46 75 DF 9D 31 DC AF BD 6A BE 20     
+                              IPK Remainder:(Size=0x0024, 36 Bytes)
+                              5C 2B FD 27 CD 7F 49 B1 17 0F C7 93 EF 7E 11 A9     
+                              4F C3 C7 72 61 CB C3 9B 36 79 DD 79 94 CC 36 85     
+                              2E 9A 19 01                                         
+                              IPK Exponents:(Size=0x0001, 1 Bytes)
+                              03                                                  
+                              PAN:(Size=0x0008, 8 Bytes)
+                              62 28 00 01 00 00 11 17                             
+<CALLBACK> EMV_RSA_Calculate() >>>
+<CALLBACK> EMV_RSA_Calculate() <<<, bRetval : 1
+                              Clear IPKC:(Size=0x0080, 128 Bytes)
+                              6A 02 62 28 00 01 12 20 10 00 01 01 01 80 01 E8     
+                              25 02 71 E8 1C C7 BB 3A 47 E7 AD FB 73 B7 77 CD     
+                              87 16 7A 7A 48 EC 79 4E 5A 6F D8 D2 68 72 60 71     
+                              A2 32 0B 63 47 8C C1 4A 01 3C 01 C3 62 0D 2E DD     
+                              82 AD B4 2A 31 01 14 92 2C 1B B9 E1 41 A7 B3 C7     
+                              7F 59 DE EE E7 BA 3D 51 D9 B6 DD 8A DA A9 D2 9C     
+                              24 73 C2 80 94 B8 0A 14 EA 37 A1 50 04 B3 80 1B     
+                              C4 72 FA 1A C0 CB 3C 78 FB DF A0 C9 B7 88 2A BC     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                              [00:01:39] EMV_Date_Effectived() >>
+                                   Year=20 Month=12
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                              [00:01:39] EMV_Date_Expired() << (0)
+                              Start to check the Issuer public key revocation......
+                              RID:(Size=0x0005, 5 Bytes)
+                              A0 00 00 03 33                                      
+                              CapIndex:(Size=0x0001, 1 Bytes)
+                              61                                                  
+                              Serial Number:(Size=0x0003, 3 Bytes)
+                              10 00 01                                            
+                              check success, not in the revocation list.
+                              finished.
+                              Exponents:(Size=0x0001, 1 Bytes)
+                              03                                                  
+                              Modules:(Size=0x0080, 128 Bytes)
+                              E8 25 02 71 E8 1C C7 BB 3A 47 E7 AD FB 73 B7 77     
+                              CD 87 16 7A 7A 48 EC 79 4E 5A 6F D8 D2 68 72 60     
+                              71 A2 32 0B 63 47 8C C1 4A 01 3C 01 C3 62 0D 2E     
+                              DD 82 AD B4 2A 31 01 14 92 2C 1B B9 E1 41 A7 B3     
+                              C7 7F 59 DE EE E7 BA 3D 51 D9 B6 DD 8A DA A9 D2     
+                              9C 24 73 C2 80 94 B8 0A 14 EA 37 A1 5C 2B FD 27     
+                              CD 7F 49 B1 17 0F C7 93 EF 7E 11 A9 4F C3 C7 72     
+                              61 CB C3 9B 36 79 DD 79 94 CC 36 85 2E 9A 19 01     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:39] EMV_RetrieveIPK() << (0)
+                         ICCPKC:(Size=0x0080, 128 Bytes)
+                         66 7C 76 51 44 7D 73 6A A2 EF FF 59 19 51 E1 D3     
+                         14 B5 82 42 C0 A4 FB CA 63 7D B0 40 66 DB C3 53     
+                         4E B3 33 41 1D 3E BB 0D 62 5D 01 A2 53 53 B4 C3     
+                         72 ED 21 F3 68 DD 1D 09 02 64 13 A6 96 68 1E BC     
+                         41 63 37 21 8E 6E 24 99 D0 E2 13 EB 81 10 C0 0F     
+                         1B 4F CA 63 CC B9 F8 07 4F 0A D6 59 54 7F 20 89     
+                         FF 22 06 9B DC 4B 1F D7 68 3B 7C D2 E8 A3 56 65     
+                         E5 E0 E8 25 CD 49 3D AF AF 83 27 FE 9D A3 8E 80     
+                         ICCPK Remainder:(Size=0x002A, 42 Bytes)
+                         AA 1E 6C 89 EF DA 05 3B 78 C7 D7 E6 65 F2 FD 04     
+                         83 5D 01 16 6C 52 09 22 94 F2 A0 50 DE 5E 4F 24     
+                         A5 4E 59 11 16 78 EB B2 C6 B9                       
+                         ICCPK Exponents:(Size=0x0001, 1 Bytes)
+                         03                                                  
+                         SDA Tag List:(Size=0x0001, 1 Bytes)
+                         82                                                  
+                         AIP:(Size=0x0002, 2 Bytes)
+                         7C 00                                               
+                         PAN:(Size=0x0008, 8 Bytes)
+                         62 28 00 01 00 00 11 17                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:39] EMV_RetrieveICCKEY() >>
+                              ICCPKC:(Size=0x0080, 128 Bytes)
+                              66 7C 76 51 44 7D 73 6A A2 EF FF 59 19 51 E1 D3     
+                              14 B5 82 42 C0 A4 FB CA 63 7D B0 40 66 DB C3 53     
+                              4E B3 33 41 1D 3E BB 0D 62 5D 01 A2 53 53 B4 C3     
+                              72 ED 21 F3 68 DD 1D 09 02 64 13 A6 96 68 1E BC     
+                              41 63 37 21 8E 6E 24 99 D0 E2 13 EB 81 10 C0 0F     
+                              1B 4F CA 63 CC B9 F8 07 4F 0A D6 59 54 7F 20 89     
+                              FF 22 06 9B DC 4B 1F D7 68 3B 7C D2 E8 A3 56 65     
+                              E5 E0 E8 25 CD 49 3D AF AF 83 27 FE 9D A3 8E 80     
+                              ICCPK Remainder:(Size=0x002A, 42 Bytes)
+                              AA 1E 6C 89 EF DA 05 3B 78 C7 D7 E6 65 F2 FD 04     
+                              83 5D 01 16 6C 52 09 22 94 F2 A0 50 DE 5E 4F 24     
+                              A5 4E 59 11 16 78 EB B2 C6 B9                       
+                              ICCPK Exponents:(Size=0x0001, 1 Bytes)
+                              03                                                  
+                              SDA Tag List:(Size=0x0001, 1 Bytes)
+                              82                                                  
+                              AIP:(Size=0x0002, 2 Bytes)
+                              7C 00                                               
+                              PAN:(Size=0x0008, 8 Bytes)
+                              62 28 00 01 00 00 11 17                             
+<CALLBACK> EMV_RSA_Calculate() >>>
+<CALLBACK> EMV_RSA_Calculate() <<<, bRetval : 1
+                              Clear IPKC:(Size=0x0080, 128 Bytes)
+                              6A 04 62 28 00 01 00 00 11 17 FF FF 12 20 10 00     
+                              10 01 01 80 01 87 0E 82 EB D1 53 60 4A 5E B9 E4     
+                              AE 54 2D 3B 17 60 D4 F9 7E 23 CC 89 B6 31 7D 04     
+                              0E 1B A5 76 D2 27 BE C4 9E 95 D6 60 0B B8 CC AB     
+                              E9 66 6F E2 D3 A2 EF 01 CA 98 F3 0B 53 D0 A4 82     
+                              F7 D3 28 52 1A 1D 1D 95 35 5F 22 79 FC B9 B2 73     
+                              5D CE 5E 2A 0A 7E 83 56 A1 0E 7D EC 19 D5 A1 43     
+                              12 FD 70 E4 46 8C 1D 18 36 FA 13 DC 3A AD CD BC     
+                              Data To Hash:(Size=0x006A, 106 Bytes)
+                              04 62 28 00 01 00 00 11 17 FF FF 12 20 10 00 10     
+                              01 01 80 01 87 0E 82 EB D1 53 60 4A 5E B9 E4 AE     
+                              54 2D 3B 17 60 D4 F9 7E 23 CC 89 B6 31 7D 04 0E     
+                              1B A5 76 D2 27 BE C4 9E 95 D6 60 0B B8 CC AB E9     
+                              66 6F E2 D3 A2 EF 01 CA 98 F3 0B 53 D0 A4 82 F7     
+                              D3 28 52 1A 1D 1D 95 35 5F 22 79 FC B9 B2 73 5D     
+                              CE 5E 2A 0A 7E 83 56 A1 0E 7D                       
+                              Data To Hash(Remainder):(Size=0x002A, 42 Bytes)
+                              AA 1E 6C 89 EF DA 05 3B 78 C7 D7 E6 65 F2 FD 04     
+                              83 5D 01 16 6C 52 09 22 94 F2 A0 50 DE 5E 4F 24     
+                              A5 4E 59 11 16 78 EB B2 C6 B9                       
+                              Exponents:(Size=0x0001, 1 Bytes)
+                              03                                                  
+                              Static Record Data:(Size=0x000E, 14 Bytes)
+                              5A 08 62 28 00 01 00 00 11 17 5F 34 01 01           
+                              AIP:(Size=0x0002, 2 Bytes)
+                              7C 00                                               
+                              Hash In Certificate:(Size=0x0014, 20 Bytes)
+                              EC 19 D5 A1 43 12 FD 70 E4 46 8C 1D 18 36 FA 13     
+                              DC 3A AD CD                                         
+                              Hash Calculated:(Size=0x0014, 20 Bytes)
+                              EC 19 D5 A1 43 12 FD 70 E4 46 8C 1D 18 36 FA 13     
+                              DC 3A AD CD                                         
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                              [00:01:39] EMV_Date_Effectived() >>
+                                   Year=20 Month=12
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                              [00:01:39] EMV_Date_Expired() << (0)
+                              ICC Publick key Algorithm Indicator:(Size=0x0001, 1 Bytes)
+                              01                                                  
+                              Exponents:(Size=0x0001, 1 Bytes)
+                              03                                                  
+                              Modules:(Size=0x0080, 128 Bytes)
+                              87 0E 82 EB D1 53 60 4A 5E B9 E4 AE 54 2D 3B 17     
+                              60 D4 F9 7E 23 CC 89 B6 31 7D 04 0E 1B A5 76 D2     
+                              27 BE C4 9E 95 D6 60 0B B8 CC AB E9 66 6F E2 D3     
+                              A2 EF 01 CA 98 F3 0B 53 D0 A4 82 F7 D3 28 52 1A     
+                              1D 1D 95 35 5F 22 79 FC B9 B2 73 5D CE 5E 2A 0A     
+                              7E 83 56 A1 0E 7D AA 1E 6C 89 EF DA 05 3B 78 C7     
+                              D7 E6 65 F2 FD 04 83 5D 01 16 6C 52 09 22 94 F2     
+                              A0 50 DE 5E 4F 24 A5 4E 59 11 16 78 EB B2 C6 B9     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:40] EMV_RetrieveICCKEY() << (0)
+                         Exponents:(Size=0x0001, 1 Bytes)
+                         03                                                  
+                         Modules:(Size=0x0080, 128 Bytes)
+                         87 0E 82 EB D1 53 60 4A 5E B9 E4 AE 54 2D 3B 17     
+                         60 D4 F9 7E 23 CC 89 B6 31 7D 04 0E 1B A5 76 D2     
+                         27 BE C4 9E 95 D6 60 0B B8 CC AB E9 66 6F E2 D3     
+                         A2 EF 01 CA 98 F3 0B 53 D0 A4 82 F7 D3 28 52 1A     
+                         1D 1D 95 35 5F 22 79 FC B9 B2 73 5D CE 5E 2A 0A     
+                         7E 83 56 A1 0E 7D AA 1E 6C 89 EF DA 05 3B 78 C7     
+                         D7 E6 65 F2 FD 04 83 5D 01 16 6C 52 09 22 94 F2     
+                         A0 50 DE 5E 4F 24 A5 4E 59 11 16 78 EB B2 C6 B9     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:40] EMV_RetrieveICCPK() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:40] EMV_CMD_InternalAuthenticate() >>
+                         Data To Auth:(Size=0x001D, 29 Bytes)
+                         00 00 00 00 00 02 00 00 00 00 00 00 01 56 00 00     
+                         00 00 00 08 40 00 01 01 00 78 FD 34 95              
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:40] EMV_SC_ExchangeApdu() >>
+                              APDU Command:(Size=0x0022, 34 Bytes)
+                              00 88 00 00 1D 00 00 00 00 00 02 00 00 00 00 00     
+                              00 01 56 00 00 00 00 00 08 40 00 01 01 00 78 FD     
+                              34 95                                               
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                              APDU Response:(Size=0x0089, 137 Bytes)
+                              77 81 84 9F 4B 81 80 39 B9 F4 E0 1C AD A1 95 2B     
+                              C7 72 C3 B7 FA C3 4D 0E 61 14 47 6F CD 6A 84 E5     
+                              0B 28 E9 FF B8 86 9F 35 7E 35 E9 82 64 C1 DD 66     
+                              A2 08 FA 0D EF CC 57 1E DC 1F 48 FF 67 7D 9E E4     
+                              7C 27 4B 47 66 1E 2D 9E 9C 70 0B BF DE 37 9A 60     
+                              44 5B 16 6D DF 07 3B 5E C9 5F 73 67 90 E8 09 5A     
+                              2F 24 C2 AB BB 45 27 5C 64 4C 7F 83 18 81 FD C3     
+                              77 C1 3F 04 81 59 48 5D E2 36 C4 69 A5 C2 1A 02     
+                              B1 F3 B8 79 B4 31 B7 90 00                          
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_SC_ExchangeApdu() bool << (1)
+                         Resp Data:(Size=0x0087, 135 Bytes)
+                         77 81 84 9F 4B 81 80 39 B9 F4 E0 1C AD A1 95 2B     
+                         C7 72 C3 B7 FA C3 4D 0E 61 14 47 6F CD 6A 84 E5     
+                         0B 28 E9 FF B8 86 9F 35 7E 35 E9 82 64 C1 DD 66     
+                         A2 08 FA 0D EF CC 57 1E DC 1F 48 FF 67 7D 9E E4     
+                         7C 27 4B 47 66 1E 2D 9E 9C 70 0B BF DE 37 9A 60     
+                         44 5B 16 6D DF 07 3B 5E C9 5F 73 67 90 E8 09 5A     
+                         2F 24 C2 AB BB 45 27 5C 64 4C 7F 83 18 81 FD C3     
+                         77 C1 3F 04 81 59 48 5D E2 36 C4 69 A5 C2 1A 02     
+                         B1 F3 B8 79 B4 31 B7                                
+                         Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:41] EMV_CMD_InternalAuthenticate()  bool  << (1)
+                    Dynamic Data Certificate:(Size=0x0087, 135 Bytes)
+                    77 81 84 9F 4B 81 80 39 B9 F4 E0 1C AD A1 95 2B     
+                    C7 72 C3 B7 FA C3 4D 0E 61 14 47 6F CD 6A 84 E5     
+                    0B 28 E9 FF B8 86 9F 35 7E 35 E9 82 64 C1 DD 66     
+                    A2 08 FA 0D EF CC 57 1E DC 1F 48 FF 67 7D 9E E4     
+                    7C 27 4B 47 66 1E 2D 9E 9C 70 0B BF DE 37 9A 60     
+                    44 5B 16 6D DF 07 3B 5E C9 5F 73 67 90 E8 09 5A     
+                    2F 24 C2 AB BB 45 27 5C 64 4C 7F 83 18 81 FD C3     
+                    77 C1 3F 04 81 59 48 5D E2 36 C4 69 A5 C2 1A 02     
+                    B1 F3 B8 79 B4 31 B7                                
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:41] EMV_Pharse_RecordData() >>
+                         Record Data:(Size=0x0087, 135 Bytes)
+                         77 81 84 9F 4B 81 80 39 B9 F4 E0 1C AD A1 95 2B     
+                         C7 72 C3 B7 FA C3 4D 0E 61 14 47 6F CD 6A 84 E5     
+                         0B 28 E9 FF B8 86 9F 35 7E 35 E9 82 64 C1 DD 66     
+                         A2 08 FA 0D EF CC 57 1E DC 1F 48 FF 67 7D 9E E4     
+                         7C 27 4B 47 66 1E 2D 9E 9C 70 0B BF DE 37 9A 60     
+                         44 5B 16 6D DF 07 3B 5E C9 5F 73 67 90 E8 09 5A     
+                         2F 24 C2 AB BB 45 27 5C 64 4C 7F 83 18 81 FD C3     
+                         77 C1 3F 04 81 59 48 5D E2 36 C4 69 A5 C2 1A 02     
+                         B1 F3 B8 79 B4 31 B7                                
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_Pharse_TLV() >>
+                              Byte=9F
+                              [9F4B]Signed Dynamic Application Data
+                                   39 B9 F4 E0 1C AD A1 95 2B C7 72 C3 B7 FA C3 4D     
+                                   0E 61 14 47 6F CD 6A 84 E5 0B 28 E9 FF B8 86 9F     
+                                   35 7E 35 E9 82 64 C1 DD 66 A2 08 FA 0D EF CC 57     
+                                   1E DC 1F 48 FF 67 7D 9E E4 7C 27 4B 47 66 1E 2D     
+                                   9E 9C 70 0B BF DE 37 9A 60 44 5B 16 6D DF 07 3B     
+                                   5E C9 5F 73 67 90 E8 09 5A 2F 24 C2 AB BB 45 27     
+                                   5C 64 4C 7F 83 18 81 FD C3 77 C1 3F 04 81 59 48     
+                                   5D E2 36 C4 69 A5 C2 1A 02 B1 F3 B8 79 B4 31 B7     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_Pharse_TLV() << (0)
+                         SDAD:(Size=0x0080, 128 Bytes)
+                         39 B9 F4 E0 1C AD A1 95 2B C7 72 C3 B7 FA C3 4D     
+                         0E 61 14 47 6F CD 6A 84 E5 0B 28 E9 FF B8 86 9F     
+                         35 7E 35 E9 82 64 C1 DD 66 A2 08 FA 0D EF CC 57     
+                         1E DC 1F 48 FF 67 7D 9E E4 7C 27 4B 47 66 1E 2D     
+                         9E 9C 70 0B BF DE 37 9A 60 44 5B 16 6D DF 07 3B     
+                         5E C9 5F 73 67 90 E8 09 5A 2F 24 C2 AB BB 45 27     
+                         5C 64 4C 7F 83 18 81 FD C3 77 C1 3F 04 81 59 48     
+                         5D E2 36 C4 69 A5 C2 1A 02 B1 F3 B8 79 B4 31 B7     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:41] EMV_Pharse_InternalAuth_Response() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:41] EMV_SDAD_Verify() >>
+                         Retrieve CAPK....
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_RetrieveCAPK() >>
+                              CA PK Recovered Already.
+                              Exponents:(Size=0x0001, 1 Bytes)
+                              03                                                  
+                              Modules:(Size=0x0080, 128 Bytes)
+                              83 4D 2A 38 7C 5A 5F 17 6E F3 E6 6C AA F8 3F 19     
+                              4B 15 AA D2 47 0C 78 C7 7D 6E B3 8E DA E3 A2 F9     
+                              BA 16 23 F6 A5 8C 89 2C C9 25 63 2D FF 48 CE 95     
+                              4B 21 A5 3E 1F 1E 43 66 BE 40 3C 27 9B 90 02 7C     
+                              BC 72 60 5D B6 C7 90 49 B8 99 2C B4 91 2E FA 27     
+                              0B EC AB 3A 7C EF E0 5B FA 46 E4 C7 BB CF 7C 7A     
+                              17 3B D9 88 D9 89 B3 2C B7 9F AC 8E 35 FB E1 86     
+                              0E 7E A9 F2 38 A9 2A 35 93 55 2D 03 D1 E3 86 01     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_RetrieveCAPK() << (0)
+                         Retrieve IPK....
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_RetrieveIPK() >>
+                              Issuer Public Key (IPK) Recovered Already.
+                              Exponents:(Size=0x0001, 1 Bytes)
+                              03                                                  
+                              Modules:(Size=0x0080, 128 Bytes)
+                              E8 25 02 71 E8 1C C7 BB 3A 47 E7 AD FB 73 B7 77     
+                              CD 87 16 7A 7A 48 EC 79 4E 5A 6F D8 D2 68 72 60     
+                              71 A2 32 0B 63 47 8C C1 4A 01 3C 01 C3 62 0D 2E     
+                              DD 82 AD B4 2A 31 01 14 92 2C 1B B9 E1 41 A7 B3     
+                              C7 7F 59 DE EE E7 BA 3D 51 D9 B6 DD 8A DA A9 D2     
+                              9C 24 73 C2 80 94 B8 0A 14 EA 37 A1 5C 2B FD 27     
+                              CD 7F 49 B1 17 0F C7 93 EF 7E 11 A9 4F C3 C7 72     
+                              61 CB C3 9B 36 79 DD 79 94 CC 36 85 2E 9A 19 01     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_RetrieveIPK() << (0)
+                         Retrieve ICCPK....
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_RetrieveICCPK() >>
+                              ICC PK Recovered Already.
+                              Exponents:(Size=0x0001, 1 Bytes)
+                              03                                                  
+                              Modules:(Size=0x0080, 128 Bytes)
+                              87 0E 82 EB D1 53 60 4A 5E B9 E4 AE 54 2D 3B 17     
+                              60 D4 F9 7E 23 CC 89 B6 31 7D 04 0E 1B A5 76 D2     
+                              27 BE C4 9E 95 D6 60 0B B8 CC AB E9 66 6F E2 D3     
+                              A2 EF 01 CA 98 F3 0B 53 D0 A4 82 F7 D3 28 52 1A     
+                              1D 1D 95 35 5F 22 79 FC B9 B2 73 5D CE 5E 2A 0A     
+                              7E 83 56 A1 0E 7D AA 1E 6C 89 EF DA 05 3B 78 C7     
+                              D7 E6 65 F2 FD 04 83 5D 01 16 6C 52 09 22 94 F2     
+                              A0 50 DE 5E 4F 24 A5 4E 59 11 16 78 EB B2 C6 B9     
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:41] EMV_RetrieveICCPK() << (0)
+<CALLBACK> EMV_RSA_Calculate() >>>
+<CALLBACK> EMV_RSA_Calculate() <<<, bRetval : 1
+                         Clear SDAD:(Size=0x0080, 128 Bytes)
+                         6A 05 01 07 06 11 22 33 44 55 66 BB BB BB BB BB     
+                         BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB     
+                         BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB     
+                         BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB     
+                         BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB     
+                         BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB     
+                         BB BB BB BB BB BB BB BB BB BB BB A1 C7 0C 4E 9F     
+                         25 4E B8 C2 DA 96 CA 90 23 5F 2D C9 18 01 7A BC     
+                         Recovered Signed Data Header:(Size=0x0001, 1 Bytes)
+                         6A                                                  
+                         Recovered Signed Data format:(Size=0x0001, 1 Bytes)
+                         05                                                  
+                         Recovered Signed Data Tail:(Size=0x0001, 1 Bytes)
+                         BC                                                  
+                         Recovered Hash Value:(Size=0x0014, 20 Bytes)
+                         A1 C7 0C 4E 9F 25 4E B8 C2 DA 96 CA 90 23 5F 2D     
+                         C9 18 01 7A                                         
+                         Calculated Hash Value:(Size=0x0014, 20 Bytes)
+                         A1 C7 0C 4E 9F 25 4E B8 C2 DA 96 CA 90 23 5F 2D     
+                         C9 18 01 7A                                         
+                         ICC Dynamic Number:(Size=0x0006, 6 Bytes)
+                         11 22 33 44 55 66                                   
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:42] EMV_SDAD_Verify() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:42] EMV_TSI_Set() >>
+                         TSI Before Set:(Size=0x0002, 2 Bytes)
+                         00 00                                               
+                         Byte:1  Bit:80(Hex)
+                         TSI After Set:(Size=0x0002, 2 Bytes)
+                         80 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:42] EMV_TSI_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_DynamicDataAuth() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_TSI_Set() >>
+                    TSI Before Set:(Size=0x0002, 2 Bytes)
+                    80 00                                               
+                    Byte:1  Bit:80(Hex)
+                    TSI After Set:(Size=0x0002, 2 Bytes)
+                    80 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_TSI_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:42] EMV_OfflineDataAuth() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:42] EMV_Check_Exception_File() >>
+               PAN not in the exception file.
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:42] EMV_Check_Exception_File() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:42] EMV_TerminalRiskManagement() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_AIP_Support() >>
+                    Index:01 Value:04
+                    AIP:(Size=0x0002, 2 Bytes)
+                    7C 00                                               
+                    Supported
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_AIP_Support() << (1)
+               AIP require TRM
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_TSI_Set() >>
+                    TSI Before Set:(Size=0x0002, 2 Bytes)
+                    80 00                                               
+                    Byte:1  Bit:08(Hex)
+                    TSI After Set:(Size=0x0002, 2 Bytes)
+                    88 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_TSI_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_FloorLimiteCheck() >>
+                    PAN:(Size=0x0008, 8 Bytes)
+                    62 28 00 01 00 00 11 17                             
+                    PANSEQ=01
+                    Transaction Amount:(Size=0x0004, 4 Bytes)
+                    00 00 00 02                                         
+                    Transaction Amount:2
+                    Floor limit :(Size=0x0004, 4 Bytes)
+                    00 00 27 10                                         
+                    Floor limit:10000
+                    Trans Log Amount:0
+Trans Amount:2
+Floor Limit:10000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_FloorLimiteCheck() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_TVR_Get() >>
+                    TVR ID:0480
+                    TVR:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    Byte=4 Bit:80(Hex)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_TVR_Get() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_RandomTransactionSelect() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:42] EMV_GetTerminalInfo() >>
+                         Terminal ID:Front123
+                         Terminal IDF Serial Number:Terminal
+                         Terminal Country Code:(Size=0x0002, 2 Bytes)
+                         01 56                                               
+                         Merchant ID:000000000000000
+                         Terminal Category Code:(Size=0x0002, 2 Bytes)
+                         12 34                                               
+                         Merchant Name Location:Terminal
+                         Transaction Currency Code:(Size=0x0002, 2 Bytes)
+                         08 40                                               
+                         Trans Currency Exp:2
+                         Transaction Ref Currency Code:(Size=0x0002, 2 Bytes)
+                         08 40                                               
+                         Trans Ref Currency Exp:2
+                         Terminal Entry Mode:(Size=0x0001, 1 Bytes)
+                         05                                                  
+                         Terminal Acquire ID:4Vxë
+                         Application Version:(Size=0x0002, 2 Bytes)
+                         00 30                                               
+                         Default DDOL:(Size=0x0003, 3 Bytes)
+                         9F 37 04                                            
+                         Default TDOL:(Size=0x0003, 3 Bytes)
+                         9F 37 04                                            
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         Temrianl Floor Limit:10000
+                         Threshold Valuet:0
+                         Target Percent:0
+                         Max Target Percent:0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:42] EMV_GetTerminalInfo() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:42] EMV_Term_CanGoOnline() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:42] EMV_Term_CanGoOnline() << (1)
+                    Floor limit :(Size=0x0004, 4 Bytes)
+                    00 00 27 10                                         
+                    Floor limit:10000
+                    Transaction Amount:(Size=0x0004, 4 Bytes)
+                    00 00 00 02                                         
+                    Transaction Amount:2
+                    random value:61
+                    Threshod Value:0
+                    Target Percentage:0
+                    Max Target Percentage:0
+                    Termial Floor Limit:10000
+                    no select online
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_RandomTransactionSelect() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_VelocityChecking() >>
+                    Lower Limite not present, no need to do Velocity Checking.
+                    upper Limite not present, no need to do Velocity Checking.
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:42] EMV_VelocityChecking() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:43] EMV_TerminalRiskManagement() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:43] EMV_ProcessingRestrictions() >>
+               Check Application Version Number
+               Card Application Version:(Size=0x0002, 2 Bytes)
+               00 30                                               
+               Terminal Application Version:(Size=0x0002, 2 Bytes)
+               00 30                                               
+               Version Same.
+               Check Application Usage Control
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Term_IsATM() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Term_IsATM() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_AUC_Support() >>
+                    Index:01 Value:01
+                    AUC:(Size=0x0002, 2 Bytes)
+                    FF C0                                               
+                    Supported
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_AUC_Support() << (1)
+               Trans Type:(Size=0x0001, 1 Bytes)
+               00                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_IsDomesticTransaction() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:43] EMV_IsDataEqual() >>
+                         [9F1A]Terminal Country Code
+                              01 56                                               
+                         [5F28]Issuer Country Code
+                              01 56                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:43] EMV_IsDataEqual() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_IsDomesticTransaction() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_AUC_Support() >>
+                    Index:01 Value:20
+                    AUC:(Size=0x0002, 2 Bytes)
+                    FF C0                                               
+                    Supported
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_AUC_Support() << (1)
+               Application Effective/Expiration Dates Checking
+               Transaction Date:(Size=0x0003, 3 Bytes)
+               00 01 01                                            
+               Effective Date:(Size=0x0003, 3 Bytes)
+               95 07 01                                            
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Date_EffectivedEx() >>
+                    Year=95 Month=07 Day=01
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Date_EffectivedEx() bool=536925920 << (1)
+               Application Effective.
+               Expire Date:(Size=0x0003, 3 Bytes)
+               20 12 31                                            
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Date_Effectived() >>
+                    Year=20 Month=12 Day=31
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Date_Expired() bool =536925920 << (0)
+               Application No Expired.
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:43] EMV_ProcessingRestrictions() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:43] EMV_CardHolderVerify() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_AIP_Support() >>
+                    Index:01 Value:10
+                    AIP:(Size=0x0002, 2 Bytes)
+                    7C 00                                               
+                    Supported
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_AIP_Support() << (1)
+               CVM List:(Size=0x000C, 12 Bytes)
+               00 00 00 00 00 00 00 00 5F 03 00 00                 
+               CV Rulers:(Size=0x0004, 4 Bytes)
+               5F 03 00 00                                         
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Set_CVSResult() >>
+                    CVM After Set:(Size=0x0003, 3 Bytes)
+                    3F 00 01                                            
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Set_CVSResult() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_TSI_Set() >>
+                    TSI Before Set:(Size=0x0002, 2 Bytes)
+                    88 00                                               
+                    Byte:1  Bit:40(Hex)
+                    TSI After Set:(Size=0x0002, 2 Bytes)
+                    C8 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_TSI_Set() << (0)
+               Action:5F Condition:03
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_CVM_NeedPerform() >>
+                    Condition:03
+                    Kernel Type:0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:43] EMV_TERM_CAP_Support() >>
+                         Type:00 Index:02 Value:08
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:43] EMV_TERM_CAP_Support() << (1)
+                    Need Perform.
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_CVM_NeedPerform() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_ExcuteCVRuler() >>
+                    CVM Action:5F
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:43] EMV_TERM_CAP_Support() >>
+                         Type:00 Index:02 Value:08
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:43] EMV_TERM_CAP_Support() << (1)
+                    CVM Result:02
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_ExcuteCVRuler() << (2)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Set_CVSResult() >>
+                    CVM After Set:(Size=0x0003, 3 Bytes)
+                    5F 03 02                                            
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_Set_CVSResult() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:43] EMV_CardHolderVerify() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:43] EMV_AIP_Support() >>
+               Index:01 Value:01
+               AIP:(Size=0x0002, 2 Bytes)
+               7C 00                                               
+               No Support
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:43] EMV_AIP_Support() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:43] EMV_TerminalActionAnalyze() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:43] EMV_GetTerminalInfo() >>
+                    Terminal ID:Front123
+                    Terminal IDF Serial Number:Terminal
+                    Terminal Country Code:(Size=0x0002, 2 Bytes)
+                    01 56                                               
+                    Merchant ID:000000000000000
+                    Terminal Category Code:(Size=0x0002, 2 Bytes)
+                    12 34                                               
+                    Merchant Name Location:Terminal
+                    Transaction Currency Code:(Size=0x0002, 2 Bytes)
+                    08 40                                               
+                    Trans Currency Exp:2
+                    Transaction Ref Currency Code:(Size=0x0002, 2 Bytes)
+                    08 40                                               
+                    Trans Ref Currency Exp:2
+                    Terminal Entry Mode:(Size=0x0001, 1 Bytes)
+                    05                                                  
+                    Terminal Acquire ID:4Vxë
+                    Application Version:(Size=0x0002, 2 Bytes)
+                    00 30                                               
+                    Default DDOL:(Size=0x0003, 3 Bytes)
+                    9F 37 04                                            
+                    Default TDOL:(Size=0x0003, 3 Bytes)
+                    9F 37 04                                            
+                    TAC Denial:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    TAC Denial:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    TAC Denial:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    Temrianl Floor Limit:10000
+                    Threshold Valuet:0
+                    Target Percent:0
+                    Max Target Percent:0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_GetTerminalInfo() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_TVR_Set() >>
+                    TVR ID:0580
+                    TVR Before Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 00                                      
+                    Byte=5 Bit:80(Hex)
+                    TVR After Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 80                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_TVR_Set() << (0)
+               Check Denial Action Code.
+               TVR        :(Size=0x0005, 5 Bytes)
+               00 00 00 00 80                                      
+               IAC-DENIAL :(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               TAC-DENIAL :(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_Term_CanGoOnline() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_Term_CanGoOnline() << (1)
+               TVR        :(Size=0x0005, 5 Bytes)
+               00 00 00 00 80                                      
+               IAC-ONLINE :(Size=0x0005, 5 Bytes)
+               FF FF FF FF FF                                      
+               TAC-ONLINE :(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               Transaction will Go Online.
+               FORCE ONLINE
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_TVR_Set() >>
+                    TVR ID:0408
+                    TVR Before Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 00 80                                      
+                    Byte=4 Bit:08(Hex)
+                    TVR After Set:(Size=0x0005, 5 Bytes)
+                    00 00 00 08 80                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_TVR_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:44] EMV_TerminalActionAnalyze() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:44] EMV_CardActionAnalyze() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_AIP_Support() >>
+                    Index:01 Value:01
+                    AIP:(Size=0x0002, 2 Bytes)
+                    7C 00                                               
+                    No Support
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_AIP_Support() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:44] EMV_GenerateAC() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:44] EMV_GetTerminalInfo() >>
+                         Terminal ID:Front123
+                         Terminal IDF Serial Number:Terminal
+                         Terminal Country Code:(Size=0x0002, 2 Bytes)
+                         01 56                                               
+                         Merchant ID:000000000000000
+                         Terminal Category Code:(Size=0x0002, 2 Bytes)
+                         12 34                                               
+                         Merchant Name Location:Terminal
+                         Transaction Currency Code:(Size=0x0002, 2 Bytes)
+                         08 40                                               
+                         Trans Currency Exp:2
+                         Transaction Ref Currency Code:(Size=0x0002, 2 Bytes)
+                         08 40                                               
+                         Trans Ref Currency Exp:2
+                         Terminal Entry Mode:(Size=0x0001, 1 Bytes)
+                         05                                                  
+                         Terminal Acquire ID:4Vxë
+                         Application Version:(Size=0x0002, 2 Bytes)
+                         00 30                                               
+                         Default DDOL:(Size=0x0003, 3 Bytes)
+                         9F 37 04                                            
+                         Default TDOL:(Size=0x0003, 3 Bytes)
+                         9F 37 04                                            
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         Temrianl Floor Limit:10000
+                         Threshold Valuet:0
+                         Target Percent:0
+                         Max Target Percent:0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:44] EMV_GetTerminalInfo() << (0)
+                    First Generate AC.
+                    CDOL Value:(Size=0x0017, 23 Bytes)
+                    95 05 9B 02 9F 02 06 9F 03 06 9F 1A 02 5F 2A 02     
+                    9A 03 9C 01 9F 37 04                                
+                    Tag=95, Length=5
+                    Actual Value:(Size=0x0005, 5 Bytes)
+                    00 00 00 08 80                                      
+                    Tag=9B, Length=2
+                    Actual Value:(Size=0x0002, 2 Bytes)
+                    C8 00                                               
+                    Tag=9F02, Length=6
+                    Actual Value:(Size=0x0006, 6 Bytes)
+                    00 00 00 00 00 02                                   
+                    Tag=9F03, Length=6
+                    Actual Value:(Size=0x0006, 6 Bytes)
+                    00 00 00 00 00 00                                   
+                    Tag=9F1A, Length=2
+                    Actual Value:(Size=0x0002, 2 Bytes)
+                    01 56                                               
+                    Tag=5F2A, Length=2
+                    Actual Value:(Size=0x0002, 2 Bytes)
+                    08 40                                               
+                    Tag=9A, Length=3
+                    Actual Value:(Size=0x0003, 3 Bytes)
+                    00 01 01                                            
+                    Tag=9C, Length=1
+                    Actual Value:(Size=0x0001, 1 Bytes)
+                    00                                                  
+                    Tag=9F37, Length=4
+                    Actual Value:(Size=0x0004, 4 Bytes)
+                    78 FD 34 95                                         
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:44] EMV_TSI_Set() >>
+                         TSI Before Set:(Size=0x0002, 2 Bytes)
+                         C8 00                                               
+                         Byte:1  Bit:20(Hex)
+                         TSI After Set:(Size=0x0002, 2 Bytes)
+                         E8 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:44] EMV_TSI_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:44] EMV_CMD_GenerateAC() >>
+                         AC Type=80
+                         CDOL Data:(Size=0x001F, 31 Bytes)
+                         00 00 00 08 80 C8 00 00 00 00 00 00 02 00 00 00     
+                         00 00 00 01 56 08 40 00 01 01 00 78 FD 34 95        
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:44] EMV_SC_ExchangeApdu() >>
+                              APDU Command:(Size=0x0024, 36 Bytes)
+                              80 AE 80 00 1F 00 00 00 08 80 C8 00 00 00 00 00     
+                              00 02 00 00 00 00 00 00 01 56 08 40 00 01 01 00     
+                              78 FD 34 95                                         
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                              APDU Response:(Size=0x0017, 23 Bytes)
+                              80 13 80 00 01 AA BB CC DD EE FF 11 22 07 01 1A     
+                              03 90 00 00 01 90 00                                
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:45] EMV_SC_ExchangeApdu() bool << (1)
+                         Generate AC Response:(Size=0x0015, 21 Bytes)
+                         80 13 80 00 01 AA BB CC DD EE FF 11 22 07 01 1A     
+                         03 90 00 00 01                                      
+                         Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:45] EMV_CMD_GenerateAC()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:45] EMV_Pharse_AC_Response() >>
+                         Generate AC Response:(Size=0x0015, 21 Bytes)
+                         80 13 80 00 01 AA BB CC DD EE FF 11 22 07 01 1A     
+                         03 90 00 00 01                                      
+                         Cryptogram Infomation Data:(Size=0x0001, 1 Bytes)
+                         80                                                  
+                         ATC:(Size=0x0002, 2 Bytes)
+                         00 01                                               
+                         Cryptogram:(Size=0x0008, 8 Bytes)
+                         AA BB CC DD EE FF 11 22                             
+                         Issuer Application Data:(Size=0x0008, 8 Bytes)
+                         07 01 1A 03 90 00 00 01                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:45] EMV_Pharse_AC_Response() << (0)
+                    ASK ARQC ICC Return ARQC
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:45] EMV_GenerateAC << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:45] EMV_CardActionAnalyze() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:45] EMV_OnlineTrans() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:45] EMV_Term_CanGoOnline() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:45] EMV_Term_CanGoOnline() << (1)
+LCD_SaveScreen ... 
+LCD_Display,uiLine:3 LCD_Display =’˝‘⁄”Î÷˜ª˙Õ®—∂. 
+EMV_Commu_SendPackage() >>>
+42 9f 41 04 00 00 00 04 82 02 7c 00 9f 36 02 00 01 9f 26 08 aa bb cc dd ee ff 11 22 9f 27 01 80 9f 34 03 5f 03 02 9f 1e 08 54 65 72 6d 69 6e 61 6c 9f 10 08 07 01 1a 03 90 00 00 01 9f 33 03 e0 d8 c8 9f 35 01 22 95 05 00 00 00 08 80 9f 37 04 78 fd 34 95 9f 01 06 12 34 56 78 91 00 9f 02 06 00 00 00 00 00 02 9f 03 06 00 00 00 00 00 00 5f 25 03 95 07 01 5f 24 03 20 12 31 5a 08 62 28 00 01 00 00 11 17 5f 34 01 01 9f 15 02 12 34 9f 16 0f 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 9f 39 01 05 9f 1a 02 01 56 9f 1c 08 46 72 6f 6e 74 31 32 33 57 11 62 28 00 01 00 00 11 17 d2 01 22 01 01 23 45 67 89 5f 2a 02 08 40 9a 03 00 01 01 9f 21 03 00 01 26 9c 01 00 
+EMV_Commu_SendPackage() >>>, bRetval : 1
+EMV_Commu_RecvPackage() >>>
+Serial_RecvPackage timeout.
+42 
+EMV_Commu_RecvPackage() >>>, ret : -1, bRetval : 0, *puiSize : 2049
+LCD_RestoreScreen ... 
+               TVR:(Size=0x0005, 5 Bytes)
+               00 00 00 08 80                                      
+               IAC DEFAULT:(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+               TAC DEFAULT:(Size=0x0005, 5 Bytes)
+               00 00 00 00 00                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:49] EMV_OnlineTrans() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:49] EMV_IssueToCardScript() >>
+               Issue Scripts:(Size=0x0000, 0 Bytes)
+               Before 2nd Generate AC
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:49] EMV_IssueToCardScript() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:49] EMV_Completion() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:49] EMV_AIP_Support() >>
+                    Index:01 Value:01
+                    AIP:(Size=0x0002, 2 Bytes)
+                    7C 00                                               
+                    No Support
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:49] EMV_AIP_Support() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:49] EMV_GenerateAC() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:49] EMV_GetTerminalInfo() >>
+                         Terminal ID:Front123
+                         Terminal IDF Serial Number:Terminal
+                         Terminal Country Code:(Size=0x0002, 2 Bytes)
+                         01 56                                               
+                         Merchant ID:000000000000000
+                         Terminal Category Code:(Size=0x0002, 2 Bytes)
+                         12 34                                               
+                         Merchant Name Location:Terminal
+                         Transaction Currency Code:(Size=0x0002, 2 Bytes)
+                         08 40                                               
+                         Trans Currency Exp:2
+                         Transaction Ref Currency Code:(Size=0x0002, 2 Bytes)
+                         08 40                                               
+                         Trans Ref Currency Exp:2
+                         Terminal Entry Mode:(Size=0x0001, 1 Bytes)
+                         05                                                  
+                         Terminal Acquire ID:4Vxë
+                         Application Version:(Size=0x0002, 2 Bytes)
+                         00 30                                               
+                         Default DDOL:(Size=0x0003, 3 Bytes)
+                         9F 37 04                                            
+                         Default TDOL:(Size=0x0003, 3 Bytes)
+                         9F 37 04                                            
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         TAC Denial:(Size=0x0005, 5 Bytes)
+                         00 00 00 00 00                                      
+                         Temrianl Floor Limit:10000
+                         Threshold Valuet:0
+                         Target Percent:0
+                         Max Target Percent:0
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:49] EMV_GetTerminalInfo() << (0)
+                    Second Generate AC.
+                    CDOL Value:(Size=0x0005, 5 Bytes)
+                    90 60 9F 32 01                                      
+                    Tag=90, Length=96
+                    Actual Value:(Size=0x0080, 128 Bytes)
+                    25 3C 3C 1F D9 92 8D 88 21 11 A6 AC 4C A2 07 DF     
+                    93 10 64 23 95 EA 09 7B 3C B1 6D 51 76 53 35 38     
+                    03 C2 C1 03 3E 4A AC B9 73 5D 2E 69 CA 49 8F EB     
+                    4C C0 AE E1 FF C7 F5 44 83 09 3A 30 CC BF 6B 20     
+                    11 D6 09 E5 2F D7 87 76 B6 6B 6D 86 95 CB C0 46     
+                    21 6B F8 1C 52 D5 C2 F9 47 DE E3 AD D7 20 9A B3     
+                    27 F2 9C 10 6B FA 0E 29 1D 9D AB 00 91 06 F4 89     
+                    BA 59 43 6D A9 46 75 DF 9D 31 DC AF BD 6A BE 20     
+                    Tag=9F32, Length=1
+                    Actual Value:(Size=0x0001, 1 Bytes)
+                    03                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:50] EMV_TSI_Set() >>
+                         TSI Before Set:(Size=0x0002, 2 Bytes)
+                         E8 00                                               
+                         Byte:1  Bit:20(Hex)
+                         TSI After Set:(Size=0x0002, 2 Bytes)
+                         E8 00                                               
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:50] EMV_TSI_Set() << (0)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:50] EMV_CMD_GenerateAC() >>
+                         AC Type=40
+                         CDOL Data:(Size=0x0061, 97 Bytes)
+                         25 3C 3C 1F D9 92 8D 88 21 11 A6 AC 4C A2 07 DF     
+                         93 10 64 23 95 EA 09 7B 3C B1 6D 51 76 53 35 38     
+                         03 C2 C1 03 3E 4A AC B9 73 5D 2E 69 CA 49 8F EB     
+                         4C C0 AE E1 FF C7 F5 44 83 09 3A 30 CC BF 6B 20     
+                         11 D6 09 E5 2F D7 87 76 B6 6B 6D 86 95 CB C0 46     
+                         21 6B F8 1C 52 D5 C2 F9 47 DE E3 AD D7 20 9A B3     
+                         03                                                  
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:50] EMV_SC_ExchangeApdu() >>
+                              APDU Command:(Size=0x0066, 102 Bytes)
+                              80 AE 40 00 61 25 3C 3C 1F D9 92 8D 88 21 11 A6     
+                              AC 4C A2 07 DF 93 10 64 23 95 EA 09 7B 3C B1 6D     
+                              51 76 53 35 38 03 C2 C1 03 3E 4A AC B9 73 5D 2E     
+                              69 CA 49 8F EB 4C C0 AE E1 FF C7 F5 44 83 09 3A     
+                              30 CC BF 6B 20 11 D6 09 E5 2F D7 87 76 B6 6B 6D     
+                              86 95 CB C0 46 21 6B F8 1C 52 D5 C2 F9 47 DE E3     
+                              AD D7 20 9A B3 03                                   
+<CALLBACK> EMV_ExchangeApdu() >>>
+<CALLBACK> EMV_ExchangeApdu() <<<, bRetval : 1
+                              APDU Response:(Size=0x0017, 23 Bytes)
+                              80 13 40 00 01 2A BB CC DD EE FF 11 22 07 01 1A     
+                              03 90 00 00 01 90 00                                
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                         [00:01:50] EMV_SC_ExchangeApdu() bool << (1)
+                         Generate AC Response:(Size=0x0015, 21 Bytes)
+                         80 13 40 00 01 2A BB CC DD EE FF 11 22 07 01 1A     
+                         03 90 00 00 01                                      
+                         Status Word: 9000
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:50] EMV_CMD_GenerateAC()  bool << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:50] EMV_Pharse_AC_Response() >>
+                         Generate AC Response:(Size=0x0015, 21 Bytes)
+                         80 13 40 00 01 2A BB CC DD EE FF 11 22 07 01 1A     
+                         03 90 00 00 01                                      
+                         Cryptogram Infomation Data:(Size=0x0001, 1 Bytes)
+                         40                                                  
+                         ATC:(Size=0x0002, 2 Bytes)
+                         00 01                                               
+                         Cryptogram:(Size=0x0008, 8 Bytes)
+                         2A BB CC DD EE FF 11 22                             
+                         Issuer Application Data:(Size=0x0008, 8 Bytes)
+                         07 01 1A 03 90 00 00 01                             
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+                    [00:01:50] EMV_Pharse_AC_Response() << (0)
+                    ASK TC ICC Return TC
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+               [00:01:50] EMV_GenerateAC << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:50] EMV_Completion() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:50] EMV_IssueToCardScript() >>
+               Issue Scripts:(Size=0x0000, 0 Bytes)
+               After 2nd Generate AC
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:50] EMV_IssueToCardScript() << (0)
+aa 1build offset:52 
+aa 2build offset:116 
+aa 3build offset:149 
+aa 4build offset:277 
+EMV_Commu_SendPackage() >>>
+1e 9f 41 04 00 00 00 04 82 02 7c 00 9f 36 02 00 01 9f 07 02 ff c0 9f 27 01 40 95 05 00 00 00 08 80 8e 0c 00 00 00 00 00 00 00 00 5f 03 00 00 9f 34 03 5f 03 02 9f 1e 08 54 65 72 6d 69 6e 61 6c 9f 0d 05 00 00 00 00 00 9f 0e 05 00 00 00 00 00 9f 0f 05 ff ff ff ff ff 9f 10 08 07 01 1a 03 90 00 00 01 5f 20 0f 46 55 4c 4c 20 46 55 4e 43 54 49 4f 4e 41 4c 57 11 62 28 00 01 00 00 11 17 d2 01 22 01 01 23 45 67 89 9f 33 03 e0 d8 c8 9f 35 01 22 9b 02 e8 00 9f 26 08 2a bb cc dd ee ff 11 22 9f 37 04 78 fd 34 95 9f 01 06 12 34 56 78 91 00 9f 02 06 00 00 00 00 00 02 9f 03 06 00 00 00 00 00 00 5f 25 03 95 07 01 5f 24 03 20 12 31 5a 08 62 28 00 01 00 00 11 17 5f 34 01 01 8a 02 59 33 5f 28 02 01 56 9f 15 02 12 34 9f 16 0f 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 9f 39 01 05 9f 1a 02 01 56 9f 1c 08 46 72 6f 6e 74 31 32 33 5f 2a 02 08 40 9a 03 00 01 01 9f 21 03 00 01 26 9c 01 00 
+EMV_Commu_SendPackage() >>>, bRetval : 1
+EMV_Commu_RecvPackage() >>>
+Serial_RecvPackage timeout.
+1e 
+EMV_Commu_RecvPackage() >>>, ret : -1, bRetval : 0, *puiSize : 40814
+LCD_RestoreScreen ... 
+..\SRC\emv\App_ApiMap.c, 303 .iccard_close.
+LCD_Display,uiLine:3 LCD_Display =’˝‘⁄¥Ú”°. 
+sectorAdrss = 01072000, dataLen = 140
+LCD_Display,uiLine:3 LCD_Display =Ωª“◊≈˙◊º. 
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:55] PBOC_Get_EC_Blance() >>
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:55] PBOC_Get_EC_Blance() << (255)
+EMV_SaveParameters BEGIN
+sectorAdrss = 01073000, dataLen = 3a8
+Actually Writed bytes:938
+          Terminal ID:TERM0001
+          Terminal IDF Serial Number:Terminal
+          Terminal Country Code:(Size=0x0002, 2 Bytes)
+          01 56                                               
+          Merchant ID:000000000000000
+          Terminal Category Code :(Size=0x0002, 2 Bytes)
+          00 01                                               
+          Merchant Name Location:
+          Transaction Currency Code:(Size=0x0002, 2 Bytes)
+          08 40                                               
+          Trans Currency Exp:(Size=0x0001, 1 Bytes)
+          02                                                  
+          Transaction Ref Currency Code:(Size=0x0002, 2 Bytes)
+          08 40                                               
+          Trans Ref Currency Exp:2
+          Terminal Entry Mode:(Size=0x0001, 1 Bytes)
+          05                                                  
+          Terminal Acquire ID:201603
+          Application Version:(Size=0x0002, 2 Bytes)
+          00 8C                                               
+          Default DDOL:(Size=0x0003, 3 Bytes)
+          9F 37 04                                            
+          Default TDOL:(Size=0x0003, 3 Bytes)
+          9F 37 04                                            
+          TAC Denial:(Size=0x0005, 5 Bytes)
+          00 00 00 00 00                                      
+          TAC Denial:(Size=0x0005, 5 Bytes)
+          00 00 00 00 00                                      
+          TAC Denial:(Size=0x0005, 5 Bytes)
+          00 00 00 00 00                                      
+          Temrianl Floor Limit:20000
+          Threshold Valuet:10000
+          Target Percent:0
+          Max Target Percent:0
+EMV_SetTerminalInfo
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:55] EMV_SetKernelConfig() >>
+               Terminal Type:(Size=0x0001, 1 Bytes)
+               22                                                  
+               Terminal Capability:(Size=0x0003, 3 Bytes)
+               E0 D8 C8                                            
+               Additional Terminal Capability:(Size=0x0005, 5 Bytes)
+               62 00 F0 20 01                                      
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+          [00:01:55] EMV_SetKernelConfig() << (0)
+PBOC_Set_EC_Floor_Limit
+get key:08
+key value is 0x8
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+     [00:01:59] EMV_Transaction_Proc() << (1)
+EMV_GetCurrentTime ... 
+..\SRC\emv\App_ApiMap.c ,151 . rtc_get_time Ret : 0 .
+[00:01:59] EMV_Transaction() << (1)
+..\SRC\emv\App_ApiMap.c, 303 .iccard_close.
+..\SRC\emv\App_ApiMap.c, 263 .SC_Close.
+..\SRC\emv\App_ApiMap.c, 263 .SC_Close.
+ EMV_CL_Close End. 
+..\SRC\emv\App_ApiMap.c, 443 .magcard_close .
+ EMV_MSR_Close. 
+Menu_Select,i : 0,uiStart : 0, uiMenuCount : 9,MAX_MENU_LINES : 3. 
+LCD_Display,uiLine:2 LCD_Display =>Ω”¥•L2≤‚ ‘. 
+Menu_Select,i : 1,uiStart : 0, uiMenuCount : 9,MAX_MENU_LINES : 3. 
+LCD_Display,uiLine:4 LCD_Display = QPBOC L2≤‚ ‘. 
+Menu_Select,i : 2,uiStart : 0, uiMenuCount : 9,MAX_MENU_LINES : 3. 
+LCD_Display,uiLine:6 LCD_Display = ∂¡»’÷æ. 
+Keyboard_KeyHit 
+Keyboard_GetKeyPress 
